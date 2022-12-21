@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            font-size: 25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        header{
+            width: 100%;
+            height: 85px;
+            background: lightsalmon;
+            text-align: center;
+            line-height: 85px;
+        }
+
+        nav{
+            width: 100%;
+            height: 85px;
+            background: lightskyblue;
+        }
+
+        ul{
+            margin-left: 100px;
+            line-height: 85px;
+        }
+
+        li{
+            display: inline;
+            padding-left: 30px;
+        }
+
+        .container{
+            height: 400px;
+            display: flex;
+        }
+
+        .main{
+            width: 30%;
+        }
+
+        .sec{
+            height: 50%;
+            background: lightcoral;
+            text-align: center;
+            line-height: 200px;
+        }
+
+        .artical{
+            height: 50%;
+            background: lightgreen;
+            text-align: center;
+            line-height: 200px;
+        }
+        
+        aside{
+            width: 70%;
+            background: lightslategray;
+            text-align: center;
+            line-height: 400px;    
+        }
+
+        footer{
+            width: 100%;
+            height: 85px;
+            text-align: center;
+            background: limegreen;
+            line-height: 85px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h3>HEADER</h3>
+    </header>
+
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <section class="container">
+        <section class="main">
+            <section class="sec">SECTION</section>
+            <article class="artical">ARTICAL</article>
+        </section>
+        <aside>ASIDE</aside>
+    </section>
+    
+    <footer>FOOTER</footer>
+</body>
+</html>

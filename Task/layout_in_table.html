@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout in Table</title>
+    <style>
+        table,td{
+            border-collapse: collapse;
+            text-align: center;
+            border: 5px solid black;
+            font-weight: 900;
+            color: white;
+            font-family: sans-serif;
+            
+        }
+    </style>
+</head>
+<body>
+    <table width="500px" height="500px" align="center">
+        <tr>
+            <td colspan="2" bgcolor="blue">HEADER</td> 
+        </tr>
+
+        <tr>
+            <td colspan="2" bgcolor="goldenrod">NAV</td>
+        </tr>
+
+        <tr>
+            <td bgcolor="blueviolet">SECTION</td>
+            <td rowspan="2" bgcolor="red">ASIDE</td>
+        </tr>
+
+        <tr>
+            <td bgcolor="lime">ARTICAL</td>
+            
+        </tr>
+
+        <tr>
+            <td colspan="2" bgcolor="blue">FOOTER</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
