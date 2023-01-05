@@ -1,0 +1,561 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-attachment: fixed;
+    background-image: url(images/sea.gif);
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+}
+
+article{
+    margin-top: 35px;
+    margin-left: 50px;
+    width: 50%;
+}
+
+aside{
+    width: 50%;
+}
+
+.card{
+    width: 400px;
+    height: 150px;
+    background: white;
+    text-align: center;
+    line-height: 150px;
+    font-weight: bold;
+    color: green;
+    font-size: 30px;
+    font-family: sans-serif;
+    
+}
+
+span{
+    margin-left: 4px;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.fa-mug-saucer{
+    size: 30px;
+}
+
+.main{
+    display: flex;
+    width: 400px;
+    
+}
+
+.card-1{
+    width: 190px;
+    height: 75px;
+    background: white;
+    margin-top: 20px;
+    color: green;
+    font-size: 20px;
+    text-align: center;
+    line-height: 75px;
+    
+}
+
+.card-1:hover{
+    background-color: green;
+    color: white;
+}
+
+.fa-mug-hot{
+    size: 20px;
+}
+
+.drink-menu{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: 1px;
+    
+}
+
+.card-2{
+    width: 190px;
+    height: 75px;
+    background: white;
+    color: green;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 75px;
+}
+
+.card-2:hover{
+    background-color: green;
+    color: white;
+}
+
+.main-1{
+    width: 400px;
+    display: flex;
+}
+
+.card-3{
+    width: 190px;
+    height: 75px;
+    margin-top: 20px;
+    background: white;
+    color: green;
+    text-align: center;
+    line-height: 75px;
+}
+
+.card-3:hover{
+    background-color: green;
+    color: white;
+}
+
+.card-4{
+    width: 190px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: white;
+    color: green;
+    text-align: center;
+    line-height: 75px;
+}
+
+.card-4:hover{
+    background-color: green;
+    color: white;
+}
+
+.about-us{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fa-users{
+    size: 20px;
+}
+
+.special-items{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.fa-martini-glass{
+    size: 20px;
+}
+
+.contact{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+
+.fa-phone{
+    size: 20px;
+}
+
+
+
+.aside{
+    width: 600px;
+    height: 65px;
+    background: rgba(0, 0, 0, 0.8);
+    margin-top: 35px;
+}
+
+nav{
+    color: green;
+    text-align: center;
+    line-height: 65px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.a{
+    text-decoration: none;
+    position: relative;
+    margin-right: 50px;
+    margin-left: 20px;
+    color: white;
+}
+
+.a:after{
+    content: "";
+    position: absolute;
+    background-color: green;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.4s;
+}
+
+.a:hover{
+    color: green;
+}
+
+.a:hover:after{
+    width: 100%;
+    
+}
+
+.main-1{
+    display: flex;
+    width: 600px;
+}
+
+.card-5{
+    margin-top: 20px;
+}
+
+.card-6{
+    margin-left: 20px;
+    width: auto;
+    background: rgba(0, 0, 0, 0.8);
+    margin-top: 20px;
+    color: white;
+}
+
+h1{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+h2{
+    float: right;
+    margin-top: -30px;
+    margin-right: 20px;
+    font-family: sans-serif;
+    color: green;
+}
+
+p{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.main-2{
+    display: flex;
+    width: 600px;
+}
+
+.card-7{
+    margin-top: 20px;
+}
+
+.card-8{
+    margin-left: 20px;
+    width: auto;
+    background: rgba(0, 0, 0, 0.8);
+    margin-top: 20px;
+    color: white;
+}
+
+h1{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+h2{
+    float: right;
+    margin-top: -30px;
+    margin-right: 20px;
+    font-family: sans-serif;
+    color: green;
+}
+
+p{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.main-3{
+    display: flex;
+    width: 600px;
+}
+
+.card-9{
+    margin-top: 20px;
+}
+
+.card-10{
+    margin-left: 20px;
+    width: auto;
+    background: rgba(0, 0, 0, 0.8);
+    margin-top: 20px;
+    color: white;
+}
+
+h1{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+h2{
+    float: right;
+    margin-top: -30px;
+    margin-right: 20px;
+    font-family: sans-serif;
+    color: green;
+}
+
+p{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.main-4{
+    display: flex;
+    width: 600px;
+    
+}
+
+.card-11{
+    margin-top: 20px;
+}
+
+.card-12{
+    margin-left: 20px;
+    width: auto;
+    background: rgba(0, 0, 0, 0.8);
+    margin-top: 20px;
+    color: white;
+}
+
+h1{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+h2{
+    float: right;
+    margin-top: -30px;
+    margin-right: 20px;
+    font-family: sans-serif;
+    color: green;
+}
+
+p{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.about{
+    width: 620px;
+    display: flex;
+    background: rgba(0, 0, 0, 0.8);
+    height: 330px;
+    margin-top: 35px;
+}
+
+.cards .about-img{
+    margin-top: 65px;
+}
+
+.cards-1{
+    margin-top: 15px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.cards-1 p{
+    font-size: 18px;
+}
+
+.cards-1 h1{
+    color: green;
+}
+
+.about-1{
+    display: flex;
+    width: 620px;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    height: 330px;
+}
+
+.cards-2{
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.cards-2 h1{
+    color: green;
+}
+
+.cards-2 p{
+    font-size: 18px;
+    color: white;
+}
+
+.cards-3 img{
+    margin-top: 70px;
+    margin-right: 20px;
+}
+
+.cards-5{
+    margin-top: 35px;
+    background: rgba(0, 0, 0, 0.8);
+    height: 370px;
+    width: 320px;
+    font-family: sans-serif;
+}
+
+.cards-7 h1{
+    color: green;
+}
+
+.cards-7 p{
+    color: white;
+}
+
+.cards-9{
+    width: 620px;
+    height: 250px;
+    background: rgba(0, 0, 0, 0.8);
+    margin-top: 35px;
+    
+    
+}
+
+.cards-9 h1{
+    color: green;
+    padding-top: 60px;
+    padding-left: 20px;
+    font-family: sans-serif;
+}
+
+.cards-9 p{
+    padding-left: 20px;
+    color: white;
+    font-family: sans-serif;
+    padding-right: 20px;
+}
+
+.form{
+    width: 450px;
+    height: 450px;
+    background: rgba(0, 0, 0, 0.8);
+    float: right;
+    margin-top: 25px;
+    margin-right: 30px;
+    
+    
+}
+
+.name{
+    border: none;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 50px;
+    margin-left: 55px;
+    border-bottom: 1px solid;
+}
+
+.email{
+    border: none;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-left: 55px;
+    border-bottom: 1px solid;
+}
+
+.message{
+    border: none;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 55px;
+    border-bottom: 1px solid;
+}
+
+.submit{
+    color: green;
+    background: white;
+    float: right;
+    border: none;
+    margin-right: 50px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 150px;
+    height: 45px;
+}
+
+.submit:hover{
+    color: white;
+    background: green;
+    cursor: pointer;
+}
+
+footer{
+    background: rgba(0, 0, 0, 0.8);
+    width: 450px;
+    height: 50px;
+    color: white;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
