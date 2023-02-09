@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
-            
         }
 
         .div{
@@ -17,10 +17,21 @@
             height: 100px;
             background: lightskyblue;
             text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1;
         }
 
         .div img{
             margin-top: 15px;
+        }
+        
+        .container{
+            background: -moz-linear-gradient(to bottom, orange,blueviolet);
+            position: relative;
+            width: 100%;
+            height: 1000px;
         }
 
         .div1{
@@ -32,41 +43,43 @@
             text-align: center;
             background: lightskyblue;
             box-shadow: 0 0 5px 3px gray;
+            position: absolute;
+            left: 35%;
+            top: 10%;
         }
 
-        .h2{
+
+        .h2 {
             margin-top: 40px;
             color: blue;
         }
 
-        .h21{
+        .h21 {
             margin-top: 10px;
             color: black;
         }
 
-        form input{
+        form input {
             width: 260px;
             height: 30px;
             margin-top: 5px;
         }
 
-        form{
+        form {
             margin-top: 30px;
         }
 
-        .label{
+        .label {
             margin-left: -135px;
             font-size: 20px;
         }
 
-        .label1{
+        .label1 {
             margin-left: -190px;
             font-size: 20px;
         }
-
         
-
-        input:focus{
+        input:focus {
             border-color: blue;
             border-radius: 5px;
             outline: none;
@@ -91,35 +104,36 @@
             color: white;
             font-weight: bold;
             outline: none;
-            background: -moz-linear-gradient(360deg,rgb(80, 102, 148),rgb(47, 10, 212));
+            background: -moz-linear-gradient(360deg, rgb(80, 102, 148), rgb(47, 10, 212));
         }
 
         .login:hover{
             box-shadow: -2px -2px 7px 3px gray;
             cursor: pointer;
         }
-
-        
-
-
     </style>
 </head>
+
 <body>
     <div class="div">
         <img src="TOPS-logo.png" alt="">
     </div>
 
-    <div class="div1">
-        <h2 class="h2">TOPS</h2>
-        <h2 class="h21">Career Center Login</h2>
-        <form action="">
-            <label for="" class="label">Mobile Number</label><br>
-            <input type="text"><br><br>
-            <label for="" class="label1">Password</label><br>
-            <input type="password"><br><br>
-            <a href="#">Forgot Password?</a><br><br>
-            <input type="submit" value="Login" class="login">
-        </form>
+
+    <div class="container">
+        <div class="div1">
+            <h2 class="h2">TOPS</h2>
+            <h2 class="h21">Career Center Login</h2>
+            <form action="">
+                <label for="" class="label">Mobile Number</label><br>
+                <input type="text"><br><br>
+                <label for="" class="label1">Password</label><br>
+                <input type="password"><br><br>
+                <a href="#">Forgot Password?</a><br><br>
+                <input type="submit" value="Login" class="login">
+            </form>
+        </div>
     </div>
 </body>
+
 </html>
