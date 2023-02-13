@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .container{
+            height: 260px;
+            width: 550px;
+            margin: 150px auto;
+            position: relative;
+            overflow: hidden;
+            /* border: 10px solid blueviolet; */
+        }
+
+        .container:hover{
+            /* border: none; */
+        }
+
+       
+
+        .container img{
+            position: absolute;
+            left: -30px;
+            transition: 1s;
+            
+
+        }
+
+        .container img:hover{
+            left: 30px;
+            
+        }
+
+        .container::before,
+        .container::after{
+            content: "";
+            width: 0;
+            height: 0;
+            position: absolute;
+            border: 5px solid white;
+            opacity: 0;
+            z-index: 1;
+            top: 12%;
+            left: 12%;
+        }
+
+        .container:hover::after,
+        .container:hover::before{
+            opacity: 1;
+            width: 75%;
+            height: 75%;
+            top: 12%;
+            left: 12%;
+        }
+
+       
+
+        
+
+
+
+        
+        
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bottom1.jpg" alt="">
+    </div>
+</body>
+
+</html>
