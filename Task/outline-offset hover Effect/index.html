@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outline Offset Hover Effect</title>
+    <style>
+        div{
+            height: 150px;
+            width: 250px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            background: rgb(7, 233, 214);
+            text-align: center;
+            line-height: 150px;
+            color: rgb(5, 116, 106);
+            font-size: 25px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            outline: 5px solid rgb(7, 233, 214);
+            transition: 0.5s;
+        }
+
+        div:hover{
+            outline-offset: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div>Hardik Patel</div>
+</body>
+</html>
