@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item{
+    width: 30%;
+    height: 45vh;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 10px 15px;
+}
+
+.child1{
+    width: auto;
+    height: 25vh;
+    background: rgb(71, 71, 71);
+    text-align: center;
+    line-height: 25vh;
+    color: white;
+    font-weight: bold;
+}
+
+.child2{
+    margin: 15px 20px;
+}
+
+.child2 span{
+    position: relative;
+    top: 20px;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin: 0;
+    padding: 5px 10px;
+}
+
+.child2 .edit{
+    margin-left: -6px;
+}
+
+.p{
+    position: relative;
+    left: 85%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
