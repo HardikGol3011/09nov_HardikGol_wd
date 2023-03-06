@@ -1,0 +1,747 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+
+.header{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    background: lightgray;
+    font-family: montserrat;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+span{
+    width: 30%;
+    text-align: left;
+    margin-left: 20px;
+    line-height: 45px;
+}
+
+.nav{
+    width: 70%;
+    text-align: right;
+}
+
+ul{
+    margin-right: 15px;
+    line-height: 45px;
+}
+
+ul li{
+    display: inline;
+    list-style: none;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.fa-location-dot{
+    font-size: 20px;
+}
+
+.sub-header{
+    width: 100%;
+    display: flex;
+    height: 80px;
+    /* background: lightpink; */
+}
+
+.logo{
+    width: 75%;
+    text-align: right;
+    padding-right: 270px;
+    line-height: 100px;
+}
+
+.logo img{
+    width: 150px;
+    /* line-height: 80px; */
+}
+
+.menu{
+    width: 25%;
+    text-align: right;
+    display: flex;
+    line-height: 100px;
+    font-size: 14px;
+    text-align: center;
+    /* padding-right: 80px; */
+    white-space: nowrap;
+}
+
+.item{
+    text-align: center;
+    padding-right: -30px;
+    margin-left: -20px;
+    padding-top: 8px;
+    font-size: 14px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.item i{
+    font-size: 23px;
+}
+
+.item p{
+    margin-top: -20px;
+}
+
+
+
+.icon{
+    font-size: 23px;
+}
+
+.icon li{
+    margin-right: 50px;
+    line-height: 60px;
+}
+
+.name{
+    font-size: 14px;
+    margin-top: -25px;
+    margin-right: 20px;
+}
+
+.navbar{
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.search{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 130px;
+}   
+
+::placeholder{
+    font-size: 14px;
+}
+
+.navbar ul .fa-magnifying-glass{
+    font-size: 22px;
+}
+
+.container .main ul li{
+    display: block;
+}
+
+/* .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    display: none;
+} */
+
+.navbar ul .studio{
+    cursor: pointer;
+    transition: border 1s;
+}
+
+/* .navbar{
+    background: white;
+} */
+
+
+.container .main{
+    margin-left: 100px;
+    /* background: white; */
+}
+
+.container{
+    background: white;
+    z-index: 1;
+}
+
+.navbar ul .studio:hover .container{
+    display: flex;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: left;
+    
+}
+
+.navbar ul .studio:hover{
+    border-bottom: 1px solid red;
+    
+}
+
+.navbar ul{
+    position: relative;
+}
+
+.navbar ul li{
+    position: relative;
+}
+
+.navbar ul .studio .container{
+    width: 650px;
+    
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 350%;
+    left: -20%;
+    /* transform: translateX(-50%); */
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    display: none;
+    background: white;
+    z-index: 1;
+    white-space: nowrap;
+}
+
+.container .main ul li{
+    margin-top: -15px;
+}
+
+.main4, .main5{
+    margin-top: 20px;
+}
+
+.main5{
+    position: relative;
+    right: 45px;
+}
+
+.navbar ul .new .container{
+    width: 1366px;
+    position: absolute;
+    top: 350%;
+    /* left: 0; */
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    display: none;
+    background: white;
+    z-index: 1;
+}
+
+.navbar ul .new{
+    cursor: pointer;
+    transition: border 1s;
+}
+
+.navbar ul .new:hover .container{
+    display: flex;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: left;
+    background: white;
+    z-index: 1;
+}
+
+.navbar ul .new:hover{
+    border-bottom: 1px solid red;
+}
+
+.navbar ul .women .container{
+    width: 1366px;
+    position: absolute;
+    top: 350%;
+    left: -900%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    display: none;
+    white-space: nowrap;
+    /* font-size: 14px; */
+    background: white;
+    z-index: 1;
+    /* padding-right: 20px; */
+}
+
+.navbar ul .women .container .main{
+    margin-right: -20px;
+}
+
+
+.navbar ul .women{
+    cursor: pointer;
+    transition: border 1s;
+}
+
+.navbar ul .women:hover .container{
+    display: flex;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: left;
+    background: white;
+}
+
+.navbar ul .women:hover{
+    border-bottom: 1px solid red;
+}
+
+.women .container .main{
+    margin-left: 140px;
+}
+
+.navbar ul .men .container{
+    width: 1366px;
+    position: absolute;
+    top: 350%;
+    /* left: 0; */
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    display: none;
+    white-space: nowrap;
+    font-size: 14px;
+    background: white;
+    z-index: 1;
+}
+
+.navbar ul .men{
+    cursor: pointer;
+    transition: border 1s;
+}
+
+.navbar ul .men:hover .container{
+    display: flex;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: left;
+    background: white;
+}
+
+.navbar ul .men:hover{
+    border-bottom: 1px solid red;
+}
+
+.men .container .main{
+    margin-left: 90px;
+}
+
+.navbar ul .kids .container{
+    width: 1366px;
+    position: absolute;
+    top: 350%;
+    /* left: -200%; */
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    display: none;
+    white-space: nowrap;
+    font-size: 14px;
+    background: white;
+    z-index: 1;
+}
+
+.navbar ul .kids{
+    cursor: pointer;
+    transition: border 1s;
+}
+
+.navbar ul .kids:hover .container{
+    display: flex;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: left;
+    background: white;
+}
+
+.navbar ul .kids:hover{
+    border-bottom: 1px solid red;
+}
+
+.kids .container .main{
+    margin-left: 100px;
+}
+
+.navbar ul .sale .container{
+    width: 1366px;
+    position: absolute;
+    top: 350%;
+    /* left: -350%; */
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    display: none;
+    white-space: nowrap;
+    font-size: 14px;
+    background: white; 
+    z-index: 1;
+}
+
+.navbar ul .sale{
+    cursor: pointer;
+    transition: border 1s;
+}
+
+.navbar ul .sale:hover .container{
+    display: flex;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: left;
+    background: white;
+}
+
+.navbar ul .sale:hover{
+    border-bottom: 1px solid red;
+}
+
+.sale .container .main{
+    margin-left: 100px;
+}
+
+.navbar ul .brands .container{
+    width: 1366px;
+    position: absolute;
+    top: 350%;
+    /* left: -350%; */
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    display: none;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    background: white;
+    z-index: 1;
+}
+
+.navbar ul .brands{
+    cursor: pointer;
+    transition: border 1s;
+}
+
+.navbar ul .brands:hover .container{
+    display: flex;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: left;
+    background: white;
+}
+
+.navbar ul .brands:hover{
+    border-bottom: 1px solid red;
+}
+
+.brands .container .main{
+    margin-left: 100px;
+}
+
+.brands .container .main ul li{
+    line-height: 80px;
+}
+
+.bata3d a, .hush a{
+    color: red;
+}
+
+.border{
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    position: relative;
+    top: 15px;
+    z-index: -1;
+}
+
+.navbar .container .main ul li a{
+    transition: 0.5s;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .container .main ul li a:hover{
+    outline: 1px solid black;
+    outline-offset: 5px;
+}
+
+.border p{
+    display: inline;
+    line-height: 50px;
+}
+
+#slider{
+    position: relative;
+    overflow: hidden;
+    top: 35px;
+    margin: 15px;
+    
+}
+
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: slider 20s infinite;
+}
+
+#slider figure img{
+    width: 20%;
+    float: left;
+}
+
+@keyframes slider{
+    0%{left: 0;}
+    20%{left: 0;}
+    25%{left: -100%;}
+    45%{left: -100%;}
+    50%{left: -200%;}
+    70%{left: -200%;}
+    75%{left: -300%;}
+    95%{left: -300%;} 
+    100%{left: 0;}
+}
+
+.div{
+    width: auto;
+    display: flex;
+    justify-content: left;
+    margin-top: 80px;
+}
+
+.div img{
+    width: 666px;
+    padding-left: 15px;
+}
+
+.div1{
+    width: auto;
+    display: flex;
+    justify-content: left;
+    margin-top: 50px;
+}
+
+.div1 img{
+    width: 444px;
+    padding-left: 15px;
+}
+
+/* h2{
+    text-align: center;
+    margin-top: 50px;
+} */
+
+.div2{
+    width: 100%;
+    display: flex;
+    margin-top: 60px;
+}
+
+.div2 img{
+    width: 850px;
+    height: auto;
+    margin-left: 15px;
+}
+
+.div2 div{
+    width: auto;
+    margin: 25px;
+}
+
+.div2 h2{
+    margin-top: 80px;
+    font-weight: 500;
+}
+
+.div2 .p1{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.div2 .span{
+    /* margin-top: 50px; */
+    border: 1px solid black;
+    position: relative;
+    top: 20px;
+    left: -19px;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+
+.div2 .span:hover{
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.image{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 60px;
+}
+
+.image img{
+    width: 652px;
+    margin-left: 15px;
+}
+
+.images{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 60px;
+}
+
+.images img{
+    width: 93%;
+    height: auto;
+    margin-left: 15px;
+}
+
+hr{
+    margin: 40px 15px;
+    color: lightgray;
+}
+
+.items{
+    width: 1000px;
+    height: auto;
+    display: flex;
+    white-space: nowrap;
+    line-height: -2px;
+    margin: 60px auto;
+    /* padding-right: -30px; */
+}
+
+.items .item{
+    text-align: center;
+    white-space: nowrap;
+    line-height: 25px;
+}
+
+.items .item p{
+    margin-top: 2px;
+    font-weight: 600;
+}
+
+.boxes{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding-top: 60px;
+    background: rgb(231, 229, 229);
+}
+
+.boxes .box1, .box2, .box3{
+    width: 21%;
+}
+
+.boxes .box4{
+    width: auto;
+}
+
+.boxes .box ul{
+    padding: 0px 100px;  
+}
+
+.boxes .box ul li h4{
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.boxes .box ul li{
+    display: block;
+    font-size: 12px;
+    line-height: 23px;
+    white-space: nowrap;
+}
+
+.boxes .box4 ul li{
+    display: inline;
+    white-space: nowrap;
+}
+
+.boxes .box4 ul li i{
+    font-size: 28px;
+    position: relative;
+    left: -10px;
+    margin-left: -10px;
+    white-space: nowrap;
+}
+
+.boxes .box1 ul li a:hover{
+    border-bottom: 1px solid black;
+}
+
+.boxes .box2 ul li a:hover{
+    border-bottom: 1px solid black;
+}
+
+.boxes .box3 ul li a:hover{
+    border-bottom: 1px solid black;
+}
+
+.boxes .box4 ul li a .fa-square-facebook:hover{
+    color: blue;
+}
+
+.boxes .box4 ul li a .fa-instagram:hover{
+    color: rgb(223, 49, 78);
+}
+
+.boxes .box4 ul li a .fa-youtube:hover{
+    color: red;
+}
+
+.boxes .box4 ul li a .fa-pinterest:hover{
+    color: brown;
+}
+
+.boxes .box4 ul li a .fa-linkedin:hover{
+    color: blue;
+}
+
+.wrappers{
+    width: 100%;
+    display: flex;
+    background: rgb(231, 229, 229);
+    font-weight: bold;
+}
+
+.wrappers .wrapper{
+    width: 50%;
+    margin: 0px 105px;
+}
+
+.wrappers .item1{
+    text-align: left;
+    padding-top: 80px;
+}
+
+.wrappers .item2{
+    text-align: right;
+    padding-top: 70px;
+}
+
+.wrappers .item2 img{
+    width: 125px;
+}
+
+
+footer{
+    width: 100%;
+    background: rgb(231, 229, 229);
+    text-align: center;
+    padding: 40px;
+}
+
+
+
+
+
