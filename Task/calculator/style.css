@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 70px auto;
+}
+
+.items{
+    width: 125px;
+    height: 84px;
+    border: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+    line-height: 84px;
+    cursor: pointer;
+}
+
+.items1{
+    width: 500px;
+    text-align: right;
+}
+
+.items20{
+    background: blue;
+    color: white;
+}
+
+
+
+
