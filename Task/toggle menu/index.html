@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.services').click(function(){
+                $('.submenu').toggle();
+            })
+            $('.more').click(function(){
+                $('.sub-menu').toggle();
+            })
+        });
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <title>Navbar</title>
+</head>
+
+<body>
+    <nav>
+        <img src="logo.png" alt="">
+        <div class="div home"><a href="#">Home</a></div>
+        <div class="div about"><a href="#">About</a></div>
+        <div class="div services"><a href="#">Services<i class="fa-solid fa-chevron-down"></i></a>
+            <div class="submenu">
+                <div class="item webdesign"><a href="#">Web Design</a></div>
+                <div class="item marketing"><a href="#">Marketing</a></div>
+                <div class="item wordpress"><a href="#">WordPress</a></div>
+                <div class="item more"><a href="#">More<i class="fa-solid fa-chevron-right"></i></a>
+                    <div class="sub-menu">
+                        <div class="items html"><a href="#">HTML</a></div>
+                        <div class="items css"><a href="#">CSS</a></div>
+                        <div class="items javascript"><a href="#">JavaScript</a></div>
+                        <div class="items jquery"><a href="#">jQuery</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="div blogs"><a href="#">Blogs</a></div>
+        <div class="div contact"><a href="#">Contact</a></div>
+        <input type="submit" value="Login" class="login">
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

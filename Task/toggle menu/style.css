@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background: #1b4cd3;
+}
+
+nav img{
+    width: 100px;
+    margin: 0px 550px 0px -400px;
+}
+
+nav .div{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0px 10px 0px 5px;
+    white-space: nowrap;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+nav .div:hover{
+    background: #133593;
+    cursor: pointer;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav .login{
+    width: 80px;
+    height: 25px;
+    margin: 0px 20px;
+    background: white;
+    color: #1b4cd3;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.fa-chevron-down{
+    padding: 0px 5px;
+}
+
+nav .services{
+   position: relative;
+}
+
+nav .services .submenu{
+    width: 120px;
+    position: absolute;
+    top: 40px;
+    left: -9px;
+    color: white;
+    white-space: nowrap;
+    display: none;
+    background: #1b4cd3;
+    text-align: left;
+}
+
+nav .services .open{
+    display: block;
+}
+
+nav .services .submenu .item{
+    width: 120px;
+    height: 40px;
+    padding: 0px 15px;
+    border-bottom: 1px solid white;
+}
+
+nav .services .submenu .item:hover{
+    background: #133593;
+}
+
+nav .services .submenu a{
+    color: white;
+}
+
+/* nav .services:hover{
+    background: #133593;
+}
+
+nav .services:hover .submenu{
+    display: block;
+} */
+
+nav .more{
+    position: relative;
+}
+
+nav .more .sub-menu{
+    width: 120px;
+    position: absolute;
+    display: none;
+    background: #1b4cd3;
+    top: 0px;
+    left: 120px;
+}
+
+/* nav .services .submenu .more .toggle{
+    display: block;
+} */
+
+nav .more .sub-menu .items{
+    width: 120px;
+    height: 40px;
+    padding: 0px 20px;
+    border: 1px solid white;
+}
+
+nav .more .sub-menu .items:hover{
+    background: #133593;
+}
+
+nav .more .sub-menu a{
+    color: white;
+}
+
+/* nav .more:hover .sub-menu{
+    display: block;
+} */
+
+.fa-chevron-right{
+    padding: 0px 15px;
+}
+
+
+
+
+
+
