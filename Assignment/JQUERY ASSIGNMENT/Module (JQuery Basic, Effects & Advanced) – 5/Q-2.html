@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT ASSIGNMENT</title>
+    <link rel="stylesheet" href="CSS/Q-2.css">
+</head>
+
+<body>
+    <section>
+      <h1>Module (JQuery Basic, Effects & Advanced) – 5</h1>
+        <h3>(2) How to Apply CSS Using JQuery, How to Add Class and Remove Class in Jquery ,
+            JQuery Animation?</h3>
+        <pre><b>Ans:</b> <b>Apply CSS Using jQuery :</b>
+    
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").css({"background-color": "orange", "font-size": "20px"});
+  });
+});    
+
+<b>Add Class and Remove Class :</b>
+
+Syntax:
+
+Adding a class:
+
+$('selector').addClass(class_name);
+
+Removing a class:
+
+$('selector').removeClass(class_name);
+
+<b>JQuery Animation :</b>
+
+for jQuery Animation we can use animate() method.
+
+Ex :
+
+$("button").click(function(){
+    $("div").animate({
+      left: '150px',
+      opacity: '0.3',
+      color: 'blueviolet',
+      background-color: 'purple',
+      height: '180px',
+      width: '250px'
+    });
+  });
+
+        </pre>
+    </section>
+</body>
+
+</html>
