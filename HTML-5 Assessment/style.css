@@ -19,7 +19,7 @@ nav img{
     margin: 0px 550px 0px -400px;
 }
 
-nav .div{
+nav .section{
     width: 100px;
     height: 40px;
     line-height: 40px;
@@ -29,7 +29,7 @@ nav .div{
     padding: 0px 10px;
 }
 
-nav .div:hover{
+nav .section:hover{
     background: #133593;
     cursor: pointer;
 }
