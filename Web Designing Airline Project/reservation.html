@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airlines</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://malsup.github.io/jquery.cycle.all.js"></script>
+    <script src="jquery/jquery.js"></script>
+    <script src="javascript/javascript.js"></script>
+
+
+
+</head>
+
+<body>
+    <header>
+        <span><i class="fa-solid fa-bars" id="fa"></i>
+            <ul id="ul">
+                <a href="index.html">
+                    <li>HOME</li>
+                </a>
+                <a href="aircraft.html">
+                    <li>OUR AIRCRAFT</li>
+                </a>
+                <a href="safety.html">
+                    <li>SAFETY</li>
+                </a>
+                <a href="charters.html">
+                    <li>CHARTERS</li>
+                </a>
+                <a href="contact.html">
+                    <li>CONTACTS</li>
+                </a>
+            </ul>
+        </span>
+        <img src="logo/logo.png" alt="">
+        <div class="menu">
+            <ul class="menu1">
+                <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-shop"></i></a></li>
+            </ul>
+            <ul class="menu2">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="aircraft.html">OUR AIRCRAFT</a></li>
+                <li><a href="safety.html">SAFETY</a></li>
+                <li><a href="charters.html">CHARTERS</a></li>
+                <li><a href="contact.html">CONTACTS</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="slide">
+
+        <div id="slider">
+
+            <a href="#"><img src="images/airline1.jpg" alt=""></a>
+            <a href="#"><img src="images/airline2.jpg" alt=""></a>
+            <a href="#"><img src="images/airline3.jpg" alt=""></a>
+            <a href="#"><img src="images/airline4.jpg" alt=""></a>
+
+        </div>
+
+    </section>
+
+    <section class="wrapper">
+
+        <h1 class="headingss1">COMFORT</h1>
+        <h1 class="headingss2">Guaranteed</h1>
+
+        <p class="pera">Lorem, ipsum dolor sit amet consectetur adipisicing<br>
+            elit. Nam maiores voluptates cumque iste<br>
+            harum fugit quisquam voluptatum</p>
+
+    </section>
+
+
+    <section class="content">
+        <div class="leftside">
+            <h3 class="h3">Your Flight Planner</h3>
+            <form action="">
+                <div class="main">
+                    <span class="radio radio1"><input type="radio" value="Round Trip" name="airline"> Round Trip</span>
+                    <span class="radio radio2"><input type="radio" value="Empty-Leg" name="airline"> Empty-Leg</span>
+                </div>
+                <div class="main">
+                    <span class="radio radio3"><input type="radio" value="One Way" name="airline"> One Way</span>
+                    <span class="radio radio4"><input type="radio" value="Multi-leg" name="airline"> Multi-leg</span>
+                </div>
+                <div class="city">
+                    <label for="">Leving From:</label><br>
+                    <input type="text" placeholder="Enter City or Airport Code" size="25px">
+                </div>
+                <div class="city1">
+                    <label for="">Going To:</label><br>
+                    <input type="text" placeholder="Enter City or Airport Code" size="25px">
+                </div>
+                <div class="datetime">
+                    <label for="">Departure Date and Time:</label>
+                    <input type="date">
+                    <input type="time">
+                </div>
+                <div class="datetime1">
+                    <label for="">Return Date and Time:</label>
+                    <input type="date">
+                    <input type="time">
+                </div>
+                <span class="passengers">
+                    <label for="">Passengers:</label><br>
+                    <input type="text" placeholder="#passengers">
+                </span>
+                <span class="submit">
+                    <input type="submit" value="GO!">
+                </span>
+            </form>
+            <div class="news">
+                <h3>Recent News</h3>
+                <div>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <span>January 1, 2023</span>
+                </div>
+                <hr>
+                <div>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <span>February 5, 2023</span>
+                </div>
+                <hr>
+                <div>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <span>March 22, 2023</span>
+                </div>
+            </div>
+        </div>
+        <div class="rightside">
+            <form class="reservation_form" action="#" method="post" id="form">
+                <h1>Airline Reservation Form</h1>
+
+
+
+
+                <div class="input">
+                    <h3>Personal Details</h3>
+                </div>
+
+                <div class="input2">
+                    <input type="text" class="fullname" name="user-name" placeholder="FULL NAME" id="username"
+                        minlength="3" maxlength="20"  required>
+                    <input type="tel" class="number" name="number" placeholder="MOBILE NUMBER" required>
+                    <input type="email" class="email" name="email" placeholder="EMAIL" required>
+                </div>
+
+                <h3 class="flight_planner">Your Flight Planner</h3>
+
+                <div class="input3">
+                    <span class="radioa radio_1"><input type="radio" value="Round Trip" name="airline"> Round
+                        Trip</span>
+                    <span class="radioa radio_2"><input type="radio" value="Empty-Leg" name="airline"> Empty-Leg</span>
+                    <span class="radioa radio_3"><input type="radio" value="One Way" name="airline"> One Way</span>
+                    <span class="radioa radio_4"><input type="radio" value="Multi-leg" name="airline"> Multi-leg</span>
+                </div>
+
+                <div class="input4">
+                    <label for="">Leving From:</label><br>
+                    <input type="text" name="city_code" placeholder="Enter City or Airport Code" required>
+                </div>
+                <div class="input5">
+                    <label for="">Going To:</label><br>
+                    <input type="text" name="city_code" placeholder="Enter City or Airport Code" size="25px" required>
+                </div>
+                <div class="input6">
+                    <label for="">Departure Date and Time:</label>
+                    <input type="date" required>
+                    <input type="time" required>
+                </div>
+                <div class="input7">
+                    <label for="">Return Date and Time:</label>
+                    <input type="date" required>
+                    <input type="time" required>
+                </div>
+
+                <h3 class="input_7">Choose Your Airline and Class</h3>
+
+                <div class="input8">
+                    <select class="group" required>
+                        <option value="">Preffered Airline</option>
+                        <option value="">IndoGo</option>
+                        <option value="">AirIndia</option>
+                        <option value="">SpaceJet</option>
+                    </select>
+                    <select class="group" required>
+                        <option value="">Preffered Seating</option>
+                        <option value="">Economy Class</option>
+                        <option value="">Business Class</option>
+                        <option value="">First Class</option>
+                    </select>
+                </div>
+
+                <div class="input9">
+                    <button type="submit" class="submit_form" onclick="formvalidation()">RESERVE FLIGHT</button>
+                    <button type="reset" class="clear_form">Clear Form</button>
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+
+    <footer>
+        <span>Copyright&copy;2023 Domain Name - All Right Reservrd</span>
+        <span>Free CSS Templates by TemplateMonster</span>
+    </footer>
+
+
+
+
+</body>
+
+</html>

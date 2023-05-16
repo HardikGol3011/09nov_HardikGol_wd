@@ -1,0 +1,3774 @@
+@media screen and (min-width: 1100px) and (max-width:1279px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header {
+        position: relative;
+        width: 1050px;
+        height: 90px;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        margin: 0px auto;
+        color: white;
+        font-size: 14px;
+    }
+
+    header img {
+        width: 12%;
+        float: left;
+        position: absolute;
+        left: 160px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    header .menu {
+        width: 900px;
+        float: left;
+        position: relative;
+    }
+
+    header .menu ul li {
+        float: left;
+        list-style: none;
+    }
+
+    header .menu .menu1 {
+        position: absolute;
+        left: 772px;
+        top: 20px;
+    }
+
+    header .menu .menu1 li {
+        margin-right: 15px;
+    }
+
+    header .menu .menu2 li {
+        margin-right: 15px;
+    }
+
+    header .menu .menu2 {
+        position: absolute;
+        left: 382px;
+        top: 48px;
+    }
+
+    header .menu ul li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    header .menu .menu2 li:first-child {
+        width: 55px;
+        height: 30px;
+        cursor: pointer;
+        padding: 6px;
+    }
+
+
+    header .menu .menu2 li:nth-child(2) {
+        width: 120px;
+        height: 30px;
+        cursor: pointer;
+        padding: 6px;
+    }
+
+    header .menu .menu2 li:nth-child(3) {
+        width: 68px;
+        height: 30px;
+        padding: 6px;
+        cursor: pointer;
+    }
+
+    header .menu .menu2 li:nth-child(4) {
+        width: 88px;
+        height: 30px;
+        padding: 6px;
+        cursor: pointer;
+    }
+
+    header .menu .menu2 li:last-child {
+        width: 88px;
+        height: 30px;
+        padding: 6px;
+        cursor: pointer;
+    }
+
+    #slider {
+        width: 850px;
+        height: 430px;
+        z-index: -1;
+    }
+
+    #slider img {
+        width: 850px;
+        height: 430px;
+    }
+}
+
+
+
+@media screen and (min-width: 1051px) and (max-width:1099px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header {
+        position: relative;
+        width: 1050px;
+        height: 90px;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        margin: 0px auto;
+        color: white;
+        font-size: 14px;
+
+    }
+
+    header img {
+        width: 12%;
+        float: left;
+        position: absolute;
+        left: 160px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    header .menu {
+        width: 900px;
+        float: left;
+        position: relative;
+    }
+
+    header .menu ul li {
+        float: left;
+        list-style: none;
+    }
+
+    header .menu .menu1 {
+        position: absolute;
+        left: 85%;
+        top: 20px;
+    }
+
+    header .menu .menu1 li {
+        margin-right: 15px;
+    }
+
+    header .menu .menu2 li {
+        margin-right: 15px;
+    }
+
+    header .menu .menu2 {
+        position: absolute;
+        left: 41.5%;
+        top: 48px;
+    }
+
+    header .menu ul li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    header .menu .menu2 li:first-child {
+        width: 55px;
+        height: 30px;
+        cursor: pointer;
+        padding: 6px;
+    }
+
+
+    header .menu .menu2 li:nth-child(2) {
+        width: 120px;
+        height: 30px;
+        cursor: pointer;
+        padding: 6px;
+    }
+
+    header .menu .menu2 li:nth-child(3) {
+        width: 68px;
+        height: 30px;
+        padding: 6px;
+        cursor: pointer;
+    }
+
+    header .menu .menu2 li:nth-child(4) {
+        width: 88px;
+        height: 30px;
+        padding: 6px;
+        cursor: pointer;
+    }
+
+    header .menu .menu2 li:last-child {
+        width: 88px;
+        height: 30px;
+        padding: 6px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 962px) and (max-width: 1050px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header {
+        position: relative;
+        width: 1050px;
+        height: 90px;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        margin: 0px auto;
+        color: white;
+        font-size: 14px;
+
+    }
+
+    header img {
+        width: 12%;
+        float: left;
+        position: absolute;
+        left: 160px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    header .menu {
+        width: 85.71%;
+        float: left;
+        position: relative;
+    }
+
+    header .menu ul li {
+        float: left;
+        list-style: none;
+    }
+
+    header .menu .menu1 {
+        position: absolute;
+        left: 83.5%;
+        top: 20px;
+    }
+
+    header .menu .menu1 li {
+        margin-right: 15px;
+    }
+
+    header .menu .menu2 li {
+        margin-right: 15px;
+    }
+
+    header .menu .menu2 {
+        position: absolute;
+        left: 40%;
+        top: 48px;
+    }
+
+    header .menu ul li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    header .menu .menu2 li:first-child {
+        width: 55px;
+        height: 30px;
+        cursor: pointer;
+        padding: 6px;
+    }
+
+
+    header .menu .menu2 li:nth-child(2) {
+        width: 120px;
+        height: 30px;
+        cursor: pointer;
+        padding: 6px;
+    }
+
+    header .menu .menu2 li:nth-child(3) {
+        width: 68px;
+        height: 30px;
+        padding: 6px;
+        cursor: pointer;
+    }
+
+    header .menu .menu2 li:nth-child(4) {
+        width: 88px;
+        height: 30px;
+        padding: 6px;
+        cursor: pointer;
+    }
+
+    header .menu .menu2 li:last-child {
+        width: 88px;
+        height: 30px;
+        padding: 6px;
+        cursor: pointer;
+    }
+
+    footer {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        float: left;
+        width: 100%;
+        height: 90px;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        margin: auto;
+        color: white;
+        text-align: center;
+    }
+
+    footer span {
+        line-height: 90px;
+        margin: 70px;
+    }
+}
+
+@media screen and (min-width: 870px) and (max-width: 961px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header {
+        position: relative;
+        width: 1050px;
+        height: 90px;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        margin: 0px auto;
+        color: white;
+        font-size: 13px;
+
+    }
+
+    header img {
+        width: 12%;
+        float: left;
+        position: absolute;
+        left: 160px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    header .menu {
+        width: 85.71%;
+        float: left;
+        position: relative;
+    }
+
+    header .menu ul li {
+        float: left;
+        list-style: none;
+    }
+
+    header .menu .menu1 {
+        position: absolute;
+        left: 74.3%;
+        top: 20px;
+    }
+
+    header .menu .menu1 li {
+        margin-right: 10px;
+    }
+
+    header .menu .menu2 li {
+        margin-right: 10px;
+    }
+
+    header .menu .menu2 {
+        position: absolute;
+        left: 35%;
+        top: 48px;
+    }
+
+    header .menu ul li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    header .menu .menu2 li:first-child {
+        width: 50px;
+        height: 30px;
+        cursor: pointer;
+        padding: 6px;
+    }
+
+
+    header .menu .menu2 li:nth-child(2) {
+        width: 110px;
+        height: 30px;
+        cursor: pointer;
+        padding: 6px;
+    }
+
+    header .menu .menu2 li:nth-child(3) {
+        width: 62px;
+        height: 30px;
+        padding: 6px;
+        cursor: pointer;
+    }
+
+    header .menu .menu2 li:nth-child(4) {
+        width: 82px;
+        height: 30px;
+        padding: 6px;
+        cursor: pointer;
+    }
+
+    header .menu .menu2 li:last-child {
+        width: 82px;
+        height: 30px;
+        padding: 6px;
+        cursor: pointer;
+    }
+
+    footer {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        float: left;
+        width: 100%;
+        height: 90px;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        margin: auto;
+        color: white;
+        text-align: center;
+    }
+
+    footer span {
+        line-height: 90px;
+        margin: 50px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 869px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header {
+        position: relative;
+        width: 1050px;
+        height: 90px;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        margin: 0px auto;
+        color: white;
+        font-size: 12px;
+
+    }
+
+    header img {
+        width: 12%;
+        float: left;
+        position: absolute;
+        left: 130px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    header .menu {
+        width: 85.71%;
+        float: left;
+        position: relative;
+    }
+
+    header .menu ul li {
+        float: left;
+        list-style: none;
+    }
+
+    header .menu .menu1 {
+        position: absolute;
+        left: 69.2%;
+        top: 20px;
+    }
+
+    header .menu .menu1 li {
+        margin-right: 10px;
+    }
+
+    header .menu .menu2 li {
+        margin-right: 10px;
+    }
+
+    header .menu .menu2 {
+        position: absolute;
+        left: 32%;
+        top: 48px;
+    }
+
+    header .menu ul li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    header .menu .menu2 li:first-child {
+        width: 48px;
+        height: 30px;
+        cursor: pointer;
+        padding: 6px;
+    }
+
+
+    header .menu .menu2 li:nth-child(2) {
+        width: 104px;
+        height: 30px;
+        cursor: pointer;
+        padding: 6px;
+    }
+
+    header .menu .menu2 li:nth-child(3) {
+        width: 58px;
+        height: 30px;
+        padding: 6px;
+        cursor: pointer;
+    }
+
+    header .menu .menu2 li:nth-child(4) {
+        width: 78px;
+        height: 30px;
+        padding: 6px;
+        cursor: pointer;
+    }
+
+    header .menu .menu2 li:last-child {
+        width: 78px;
+        height: 30px;
+        padding: 6px;
+        cursor: pointer;
+    }
+
+    footer {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        float: left;
+        width: 100%;
+        height: 90px;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        margin: auto;
+        color: white;
+        text-align: center;
+    }
+
+    footer span {
+        line-height: 90px;
+        margin: 30px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header {
+        position: relative;
+        width: 100%;
+        height: 90px;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        margin: 0px auto;
+        color: white;
+        font-size: 10px;
+    }
+
+    header img {
+        width: 22%;
+        float: left;
+        position: absolute;
+        left: 80px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    header .menu {
+        width: 900px;
+        float: left;
+        position: relative;
+        display: none;
+    }
+
+    header span {
+        position: absolute;
+        line-height: 90px;
+        left: 80%;
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    header .menu .menu1 li {
+        margin-right: 20px;
+    }
+
+    header .menu .menu2 li {
+        margin-right: 20px;
+    }
+
+    footer {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        float: left;
+        width: 100%;
+        height: 90px;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        margin: auto;
+        color: white;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    footer span {
+        line-height: 90px;
+        margin: 10px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header {
+        position: relative;
+        width: 100%;
+        height: 90px;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        margin: 0px auto;
+        color: white;
+        font-size: 10px;
+    }
+
+    header img {
+        width: 24%;
+        float: left;
+        position: absolute;
+        left: 60px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    header .menu {
+        width: 900px;
+        float: left;
+        position: relative;
+        display: none;
+    }
+
+    header span {
+        position: absolute;
+        line-height: 90px;
+        left: 80%;
+        display: block;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    header .menu .menu1 li {
+        margin-right: 20px;
+    }
+
+    header .menu .menu2 li {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    .content {
+        width: 100%;
+        position: relative;
+        left: 50.6%;
+        transform: translateX(-50%);
+    }
+
+    .leftside {
+        width: 30%;
+        height: auto;
+        float: left;
+        background: rgb(238, 236, 236);
+    }
+
+    .rightside {
+        width: 70%;
+        height: auto;
+        float: left;
+    }
+
+    .wrapper{
+        width: 866px;
+        position: absolute;
+        left: 50.6%;
+        transform: translateX(-50%);
+        z-index: 3;
+    }
+    
+    .headingss1{
+        position: absolute;
+        z-index: 1;
+        top: -400px;
+        margin-left: 200px;
+        color: white;
+    }
+    
+    .headingss2{
+        position: absolute;
+        top: -375px;
+        margin-left: 260px;
+        color: white;
+        z-index: 1;
+    }
+    
+    .pera{
+        position: absolute;
+        top: -130px;
+        margin-left: 200px;
+        color: white;
+        text-align: left;
+        
+    }
+}
+
+@media screen and (max-width: 500px){
+    .wrapper{
+        width: 866px;
+        position: absolute;
+        left: 50.6%;
+        transform: translateX(-50%);
+        z-index: 3;
+        font-size: 14px;
+    }
+    
+    .headingss1{
+        position: absolute;
+        z-index: 1;
+        top: -400px;
+        margin-left: 300px;
+        color: white;
+    }
+    
+    .headingss2{
+        position: absolute;
+        top: -375px;
+        margin-left: 360px;
+        color: white;
+        z-index: 1;
+    }
+    
+    .pera{
+        position: absolute;
+        top: -130px;
+        margin-left: 300px;
+        color: white;
+        text-align: left;
+        
+    }
+}
+
+
+
+@media screen and (max-width: 841px) {
+
+    .datetime input,
+    .datetime1 input {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 866px) {
+    .client1 {
+        width: 173px;
+        height: 195px;
+        margin-left: 40px;
+        background: #00aeef;
+        border: 1px solid #00aeef;
+        border-radius: 3px;
+        color: white;
+    }
+
+    .client1 p {
+        padding: 25px 20px 15px 20px;
+    }
+}
+
+@media screen and (max-width: 847px) {
+    .client1 {
+        width: 30%;
+        height: 195px;
+        margin-left: 40px;
+        background: #00aeef;
+        border: 1px solid #00aeef;
+        border-radius: 3px;
+        color: white;
+    }
+
+    .client1 p {
+        padding: 20px 15px 14px 20px;
+
+    }
+
+    .client1 span {
+        float: right;
+        padding-right: 18px;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 779px) {
+    .client1 {
+        width: 30%;
+        height: 195px;
+        margin-left: 40px;
+        background: #00aeef;
+        border: 1px solid #00aeef;
+        border-radius: 3px;
+        color: white;
+    }
+
+    .client1 p {
+        padding: 25px 20px 15px 20px;
+
+    }
+}
+
+@media screen and (max-width: 759px) {
+    .client1 {
+        width: 28%;
+        height: 195px;
+        margin-left: 40px;
+        background: #00aeef;
+        border: 1px solid #00aeef;
+        border-radius: 3px;
+        color: white;
+    }
+
+    .client1 p {
+        font-size: 14px;
+        padding: 20x 15px 20px 15px;
+
+    }
+
+    .client1 span {
+        font-size: 14px;
+        float: right;
+        padding-right: 18px;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 808px) {
+    .client1 p {
+        padding: 25px 11px 15px 11px;
+
+    }
+
+    .client1 span {
+        float: right;
+        padding-right: 18px;
+
+    }
+}
+
+@media screen and (max-width: 693px) {
+    .client1 p {
+        font-size: 12px;
+        padding: 25px 11px 15px 11px;
+
+    }
+
+    .client1 span {
+        font-size: 12px;
+        float: right;
+        padding-right: 18px;
+        padding-top: -10px;
+
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .client1 {
+        width: 90%;
+        height: 100px;
+        margin-top: 10px;
+        margin-left: -1px;
+        background: #00aeef;
+        border: 1px solid #00aeef;
+        border-radius: 3px;
+        color: white;
+        clear: left;
+    }
+
+    .clients {
+        width: 90%;
+    }
+
+    .client {
+        width: 100%;
+    }
+
+    .client1 p {
+        font-size: 12px;
+    }
+
+    .client1 span {
+        font-size: 12px;
+        margin-top: -15px;
+        float: right;
+    }
+}
+
+@media screen and (max-width: 483px) {
+    .client1 span {
+        font-size: 12px;
+        margin-top: -30px;
+        float: right;
+    }
+
+    .client1 p {
+        font-size: 12px;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    .client1 {
+        width: 90%;
+        height: 90px;
+        margin-top: 15px;
+        margin-left: -1px;
+        background: #00aeef;
+        border: 1px solid #00aeef;
+        border-radius: 3px;
+        color: white;
+        clear: left;
+    }
+
+    .client1 p {
+        font-size: 10px;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    .leftside form .main span {
+        display: block;
+    }
+
+    .radio3 {
+        left: -7px;
+    }
+
+    .radio4 {
+        left: -6px;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .leftside form .submit {
+        display: block;
+        margin: 20px 11.5%
+    }
+}
+
+@media screen and (max-width: 799px) {
+    :placeholder-shown {
+        text-indent: 10px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 598px) {
+    :placeholder-shown {
+        text-indent: 10px;
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 486px) {
+    :placeholder-shown {
+        text-indent: 10px;
+        font-size: 7px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .passengers input {
+        width: 65px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    footer {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        float: left;
+        width: 100%;
+        height: 90px;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        margin: auto;
+        color: white;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    footer span {
+        display: block;
+        margin: 0px;
+        line-height: 45px;
+    }
+}
+
+/* aircraft media */
+
+@media screen and (max-width: 850px) {
+    .aircrafts {
+        margin-top: 20px;
+        margin-left: 50px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+
+    .portion {
+        width: auto;
+        height: 100px;
+        margin: 10px 9%;
+        font-size: 14px;
+    }
+
+    .portion .left,
+    .portion p {
+        width: 50%;
+        float: left;
+    }
+
+    .portion p {
+        margin-left: -40px;
+    }
+
+    .portion2 {
+        margin: 10px 9%;
+        font-size: 14px;
+    }
+
+    .portion3 {
+        width: auto;
+        margin-left: 10%;
+        margin-right: 0;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .list {
+        width: 50%;
+        float: left;
+    }
+
+    .portion4 {
+        position: relative;
+        top: 20px;
+        left: -20px;
+        width: 110px;
+        height: 30px;
+        border: 1px solid rgb(26, 26, 26);
+        border-radius: 3px;
+        float: right;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        color: white;
+        font-size: 12px;
+        line-height: 30px;
+        padding-left: 12px;
+        cursor: pointer;
+    }
+
+    a .portion4 {
+        color: white;
+        font-size: 16px;
+        line-height: 30px;
+        padding-left: 15px;
+        text-decoration: none;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+    }
+
+    .heading {
+        position: relative;
+        top: 80px;
+        left: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    .portion5 {
+        width: auto;
+        height: 200px;
+        position: relative;
+        top: 100px;
+        left: 50px;
+        font-size: 14px;
+    }
+
+    .portion5 p,
+    .portion5 .right {
+        width: 50%;
+        float: left;
+    }
+
+    .portion6 {
+        margin: 10px 9%;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 721px) {
+    .aircrafts {
+        margin-top: 20px;
+        margin-left: 50px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+
+    .portion {
+        width: auto;
+        height: 100px;
+        margin: 10px 9%;
+        font-size: 13px;
+    }
+
+    .portion .left,
+    .portion p {
+        width: 50%;
+        float: left;
+    }
+
+    .portion .left img {
+        width: 135px;
+    }
+
+    .portion p {
+        margin-left: -40px;
+    }
+
+    .portion2 {
+        margin: 10px 9%;
+        font-size: 13px;
+    }
+
+    .portion3 {
+        width: auto;
+        margin-left: 10%;
+        margin-right: 0;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+
+    .list {
+        width: 50%;
+        float: left;
+    }
+
+    .portion4 {
+        position: relative;
+        top: 20px;
+        left: -20px;
+        width: 110px;
+        height: 30px;
+        border: 1px solid rgb(26, 26, 26);
+        border-radius: 3px;
+        float: right;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        color: white;
+        font-size: 12px;
+        line-height: 30px;
+        padding-left: 12px;
+        cursor: pointer;
+    }
+
+    a .portion4 {
+        color: white;
+        font-size: 16px;
+        line-height: 30px;
+        padding-left: 15px;
+        text-decoration: none;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+    }
+
+    .heading {
+        position: relative;
+        top: 80px;
+        left: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    .portion5 {
+        width: auto;
+        height: 200px;
+        position: relative;
+        top: 100px;
+        left: 50px;
+        font-size: 13px;
+    }
+
+    .portion5 p,
+    .portion5 .right {
+        width: 50%;
+        float: left;
+    }
+
+    .portion6 {
+        margin: 10px 9%;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 683px) {
+    .aircrafts {
+        margin-top: 20px;
+        margin-left: 50px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+
+    .portion {
+        width: auto;
+        height: 140px;
+        margin: 10px 9%;
+        font-size: 14px;
+    }
+
+    .portion .left,
+    .portion p {
+        width: 90%;
+
+    }
+
+    .portion .left img {
+        width: 180px;
+    }
+
+    .portion p {
+        margin-top: 5px;
+        margin-left: -2px;
+    }
+
+    .portion2 {
+        margin: 20px 9%;
+        font-size: 14px;
+    }
+
+    .portion3 {
+        width: auto;
+        margin-left: 10%;
+        margin-right: 0;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .list {
+        width: 90%;
+    }
+
+    .portion4 {
+        position: relative;
+        top: 20px;
+        left: -20px;
+        width: 110px;
+        height: 30px;
+        border: 1px solid rgb(26, 26, 26);
+        border-radius: 3px;
+        float: right;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        color: white;
+        font-size: 12px;
+        line-height: 30px;
+        padding-left: 12px;
+        cursor: pointer;
+    }
+
+    a .portion4 {
+        color: white;
+        font-size: 16px;
+        line-height: 30px;
+        padding-left: 15px;
+        text-decoration: none;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+    }
+
+    .heading {
+        position: relative;
+        top: 80px;
+        left: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    .portion5 {
+        width: 90%;
+        height: 270px;
+        position: relative;
+        top: 100px;
+        left: 35px;
+        font-size: 14px;
+    }
+
+    .portion5 img {
+        margin-top: 10px;
+    }
+
+    .portion5 p,
+    .portion5 .right {
+        width: 85%;
+    }
+
+
+
+    .portion6 {
+        margin: 10px 9%;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 545px) {
+    .aircrafts {
+        margin-top: 20px;
+        margin-left: 50px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+
+    .portion {
+        width: auto;
+        height: 160px;
+        margin: 10px 9%;
+        font-size: 14px;
+    }
+
+    .portion .left,
+    .portion p {
+        width: 90%;
+
+    }
+
+    .portion .left img {
+        width: 180px;
+    }
+
+    .portion p {
+        margin-top: 5px;
+        margin-left: -2px;
+    }
+
+    .portion2 {
+        margin: 20px 9%;
+        font-size: 14px;
+    }
+
+    .portion3 {
+        width: auto;
+        margin-left: 10%;
+        margin-right: 0;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .list {
+        width: 90%;
+    }
+
+    .portion4 {
+        position: relative;
+        top: 20px;
+        left: -20px;
+        width: 110px;
+        height: 30px;
+        border: 1px solid rgb(26, 26, 26);
+        border-radius: 3px;
+        float: right;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        color: white;
+        font-size: 12px;
+        line-height: 30px;
+        padding-left: 12px;
+        cursor: pointer;
+    }
+
+    a .portion4 {
+        color: white;
+        font-size: 16px;
+        line-height: 30px;
+        padding-left: 15px;
+        text-decoration: none;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+    }
+
+    .heading {
+        position: relative;
+        top: 80px;
+        left: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    .portion5 {
+        width: 90%;
+        height: 285px;
+        position: relative;
+        top: 100px;
+        left: 30px;
+        font-size: 14px;
+    }
+
+    .portion5 img {
+        margin-top: 10px;
+    }
+
+    .portion5 p,
+    .portion5 .right {
+        width: 85%;
+    }
+
+
+
+    .portion6 {
+        margin: 10px 9%;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 419px) {
+    .aircrafts {
+        margin-top: 20px;
+        margin-left: 50px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+
+    .portion {
+        width: auto;
+        height: 175px;
+        margin: 10px 9%;
+        font-size: 14px;
+    }
+
+    .portion .left,
+    .portion p {
+        width: 90%;
+
+    }
+
+    .portion .left img {
+        width: 180px;
+    }
+
+    .portion p {
+        margin-top: 5px;
+        margin-left: -2px;
+    }
+
+    .portion2 {
+        margin: 20px 9%;
+        font-size: 14px;
+    }
+
+    .portion3 {
+        width: auto;
+        margin-left: 10%;
+        margin-right: 0;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .list {
+        width: 90%;
+    }
+
+    .portion4 {
+        position: relative;
+        top: 20px;
+        left: -20px;
+        width: 110px;
+        height: 30px;
+        border: 1px solid rgb(26, 26, 26);
+        border-radius: 3px;
+        float: right;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        color: white;
+        font-size: 12px;
+        line-height: 30px;
+        padding-left: 12px;
+        cursor: pointer;
+    }
+
+    a .portion4 {
+        color: white;
+        font-size: 16px;
+        line-height: 30px;
+        padding-left: 15px;
+        text-decoration: none;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+    }
+
+    .heading {
+        position: relative;
+        top: 80px;
+        left: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    .portion5 {
+        width: 90%;
+        height: 300px;
+        position: relative;
+        top: 100px;
+        left: 30px;
+        font-size: 14px;
+    }
+
+    .portion5 img {
+        margin-top: 10px;
+    }
+
+    .portion5 p,
+    .portion5 .right {
+        width: 85%;
+    }
+
+
+
+    .portion6 {
+        margin: 10px 9%;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .aircrafts {
+        margin-top: 20px;
+        margin-left: 50px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+
+    .portion {
+        width: auto;
+        height: 175px;
+        margin: 10px 9%;
+        font-size: 14px;
+    }
+
+    .portion .left,
+    .portion p {
+        width: 90%;
+
+    }
+
+    .portion .left img {
+        width: 180px;
+    }
+
+    .portion p {
+        margin-top: 5px;
+        margin-left: -2px;
+    }
+
+    .portion2 {
+        margin: 20px 9%;
+        font-size: 14px;
+    }
+
+    .portion3 {
+        width: auto;
+        margin-left: 10%;
+        margin-right: 0;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .list {
+        width: 90%;
+    }
+
+    .portion4 {
+        position: relative;
+        top: 20px;
+        left: -20px;
+        width: 110px;
+        height: 30px;
+        border: 1px solid rgb(26, 26, 26);
+        border-radius: 3px;
+        float: right;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        color: white;
+        font-size: 12px;
+        line-height: 30px;
+        padding-left: 12px;
+        cursor: pointer;
+    }
+
+    a .portion4 {
+        color: white;
+        font-size: 16px;
+        line-height: 30px;
+        padding-left: 15px;
+        text-decoration: none;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+    }
+
+    .heading {
+        position: relative;
+        top: 80px;
+        left: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    .portion5 {
+        width: 90%;
+        height: 310px;
+        position: relative;
+        top: 100px;
+        left: 30px;
+        font-size: 14px;
+    }
+
+    .portion5 img {
+        margin-top: 10px;
+    }
+
+    .portion5 p,
+    .portion5 .right {
+        width: 85%;
+    }
+
+
+
+    .portion6 {
+        margin: 10px 9%;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 764px) {
+    .portion .left img {
+        width: 150px;
+    }
+}
+
+/* safety media */
+
+@media screen and (max-width: 870px) {
+    .portion7 {
+        margin-top: 20px;
+        margin-left: 50px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+
+    .portion8 {
+        width: auto;
+        height: 130px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+    .portion8 .left,
+    .portion8 p {
+        width: 50%;
+        float: left;
+    }
+
+    .portion8 p {
+        margin-left: -30px;
+    }
+
+    .portion9 {
+        width: auto;
+        height: 130px;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+
+    .portion9 .left,
+    .portion9 p {
+        width: 50%;
+        float: left;
+    }
+
+    .portion9 p {
+        margin-left: -30px;
+    }
+
+    .portion10 {
+        position: relative;
+        top: 25px;
+        left: -20px;
+        width: 110px;
+        height: 30px;
+        border: 1px solid rgb(26, 26, 26);
+        border-radius: 3px;
+        float: right;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        color: white;
+        font-size: 12px;
+        line-height: 30px;
+        padding-left: 0px;
+        cursor: pointer;
+    }
+
+    .portion10 {
+        color: white;
+        font-size: 16px;
+        line-height: 30px;
+        padding-left: 15px;
+        text-decoration: none;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+    }
+
+    .portion_10{
+        position: relative;
+        top: 85px;
+        /* left: 50px; */
+        margin-left: 50px;
+        
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+
+    .portion-10 {
+        position: relative;
+        top: 100px;
+        left: 50px;
+        /* white-space: nowrap; */
+    }
+
+    .portion11 {
+        width: 90%;
+        position: relative;
+        top: 120px;
+        left: 64px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 782px) {
+    .portion7 {
+        margin-top: 20px;
+        margin-left: 50px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+
+    .portion8 {
+        width: auto;
+        height: 130px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+    .portion8 .left,
+    .portion8 p {
+        width: 50%;
+        float: left;
+    }
+
+    .portion8 p {
+        margin-left: -30px;
+    }
+
+    .portion9 {
+        width: auto;
+        height: 130px;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+
+    .portion9 .left,
+    .portion9 p {
+        width: 50%;
+        float: left;
+    }
+
+    .portion9 p {
+        margin-left: -30px;
+    }
+
+    .portion10 {
+        position: relative;
+        top: 25px;
+        left: -20px;
+        width: 110px;
+        height: 30px;
+        border: 1px solid rgb(26, 26, 26);
+        border-radius: 3px;
+        float: right;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        color: white;
+        font-size: 12px;
+        line-height: 30px;
+        padding-left: 0px;
+        cursor: pointer;
+    }
+
+    .portion10 {
+        color: white;
+        font-size: 16px;
+        line-height: 30px;
+        padding-left: 15px;
+        text-decoration: none;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+    }
+
+    .portion_10{
+        position: relative;
+        top: 85px;
+        /* left: 50px; */
+        margin-left: 50px;
+        
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+
+    .portion-10 {
+        position: relative;
+        top: 100px;
+        left: 50px;
+        /* white-space: nowrap; */
+    }
+
+    .portion11 {
+        width: 88%;
+        position: relative;
+        top: 120px;
+        left: 64px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 685px) {
+    .portion8 {
+        width: auto;
+        height: 130px;
+        margin-top: 20px;
+        margin-left: 50px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 683px) {
+    .portion7 {
+        margin-top: 20px;
+        margin-left: 50px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+
+    .portion8 {
+        width: auto;
+        height: 130px;
+        margin-top: 20px;
+        margin-left: 50px;
+        font-size: 14px;
+    }
+
+    .portion8 .left,
+    .portion8 p {
+        width: 50%;
+        float: left;
+    }
+
+    .portion8 .left img,
+    .portion9 .left img {
+        width: 150px;
+    }
+
+    .portion8 p {
+        margin-left: -30px;
+    }
+
+    .portion9 {
+        width: auto;
+        height: 130px;
+        margin-top: 10px;
+        margin-left: 50px;
+        font-size: 14px;
+    }
+
+    .portion9 .left,
+    .portion9 p {
+        width: 50%;
+        float: left;
+    }
+
+    .portion9 p {
+        margin-left: -30px;
+    }
+
+    .portion10 {
+        position: relative;
+        top: 25px;
+        left: -20px;
+        width: 110px;
+        height: 30px;
+        border: 1px solid rgb(26, 26, 26);
+        border-radius: 3px;
+        float: right;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        color: white;
+        font-size: 12px;
+        line-height: 30px;
+        padding-left: 0px;
+        cursor: pointer;
+    }
+
+    .portion10 {
+        color: white;
+        font-size: 16px;
+        line-height: 30px;
+        padding-left: 15px;
+        text-decoration: none;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+    }
+
+    .portion_10{
+        position: relative;
+        top: 85px;
+        /* left: 50px; */
+        margin-left: 50px;
+        
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+
+    .portion-10 {
+        position: relative;
+        top: 100px;
+        left: 50px;
+        /* white-space: nowrap; */
+    }
+
+    .portion11 {
+        width: 88%;
+        height: 300px;
+        position: relative;
+        top: 120px;
+        left: 64px;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 607px) {
+    .portion7 {
+        margin-top: 20px;
+        margin-left: 50px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+
+    .portion8 {
+        width: 90%;
+        height: 130px;
+        margin-top: 20px;
+        margin-left: 50px;
+        font-size: 14px;
+    }
+
+    .portion8 .left,
+    .portion8 p {
+        width: 90%;
+    }
+
+    .portion8 p, .portion9 p{
+        position: relative;
+        left: 27px;
+    }
+
+    .portion8 .left img,
+    .portion9 .left img {
+        width: 140px;
+    }
+
+    .portion9 .left img{
+        margin-top: 10px;
+    }
+
+    .portion8 p {
+        margin-left: -30px;
+    }
+
+    .portion9 {
+        width: 90%;
+        height: 175px;
+        margin-top: 10px;
+        margin-left: 50px;
+        font-size: 14px;
+    }
+
+    .portion9 .left,
+    .portion9 p {
+        width: 90%;
+    }
+
+    .portion9 p {
+        margin-left: -30px;
+    }
+
+    #pera{
+        font-size: 14px;
+        margin-top: 40px;
+    }
+
+    .portion10 {
+        position: relative;
+        top: 25px;
+        left: -20px;
+        width: 110px;
+        height: 30px;
+        border: 1px solid rgb(26, 26, 26);
+        border-radius: 3px;
+        float: right;
+        cursor: pointer;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        color: white;
+        font-size: 16px;
+        line-height: 30px;
+        padding-left: 15px;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    
+
+    .portion_10{
+        position: relative;
+        top: 85px;
+        /* left: 50px; */
+        margin-left: 50px;
+        
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+
+    .portion-10 {
+        position: relative;
+        top: 100px;
+        left: 50px;
+        /* white-space: nowrap; */
+    }
+
+    .portion11 {
+        width: 88%;
+        position: relative;
+        top: 120px;
+        left: 64px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 514px) {
+    .portion7 {
+        margin-top: 20px;
+        margin-left: 50px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+
+    .portion8 {
+        width: 90%;
+        height: 130px;
+        margin-top: 20px;
+        margin-left: 50px;
+        font-size: 14px;
+    }
+
+    .portion8 .left,
+    .portion8 p {
+        width: 90%;
+    }
+
+    .portion8 p, .portion9 p{
+        position: relative;
+        left: 27px;
+    }
+
+    .portion8 .left img,
+    .portion9 .left img {
+        width: 140px;
+    }
+
+    .portion9 .left img{
+        margin-top: 10px;
+    }
+
+    .portion8 p {
+        margin-left: -30px;
+    }
+
+    .portion9 {
+        width: 90%;
+        height: 130px;
+        margin-top: 10px;
+        margin-left: 50px;
+        font-size: 14px;
+    }
+
+    .portion9 .left,
+    .portion9 p {
+        width: 90%;
+    }
+
+    .portion9 p {
+        margin-left: -30px;
+    }
+
+    .portion10 {
+        position: relative;
+        top: 25px;
+        left: -20px;
+        width: 110px;
+        height: 30px;
+        border: 1px solid rgb(26, 26, 26);
+        border-radius: 3px;
+        float: right;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        color: white;
+        font-size: 12px;
+        line-height: 30px;
+        padding-left: 0px;
+        cursor: pointer;
+    }
+
+    .portion10 {
+        color: white;
+        font-size: 16px;
+        line-height: 30px;
+        padding-left: 15px;
+        text-decoration: none;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+    }
+
+    .portion_10{
+        position: relative;
+        top: 85px;
+        /* left: 50px; */
+        margin-left: 50px;
+        
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+
+    .portion-10 {
+        width: 70%;
+        position: relative;
+        top: 100px;
+        left: 50px;
+        /* white-space: nowrap; */
+    }
+
+    .portion11 {
+        width: 88%;
+        position: relative;
+        top: 120px;
+        left: 64px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 579px){
+    .portion9 {
+        width: 90%;
+        height: 200px;
+        margin-top: 10px;
+        margin-left: 50px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 525px){
+    .portion9 {
+        width: 90%;
+        height: 230px;
+        margin-top: 10px;
+        margin-left: 50px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 514px) {
+    .portion7 {
+        margin-top: 20px;
+        margin-left: 50px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+
+    .portion8 {
+        width: 90%;
+        height: 130px;
+        margin-top: 20px;
+        margin-left: 50px;
+        font-size: 13px;
+    }
+
+    .portion8 .left,
+    .portion8 p {
+        width: 90%;
+    }
+
+    .portion8 p, .portion9 p{
+        position: relative;
+        left: 27px;
+    }
+
+    .portion8 .left img,
+    .portion9 .left img {
+        width: 130px;
+    }
+
+    .portion9 .left img{
+        margin-top: 10px;
+    }
+
+    .portion8 p {
+        margin-left: -30px;
+    }
+
+    .portion9 {
+        width: 90%;
+        height: 215px;
+        margin-top: 10px;
+        margin-left: 50px;
+        font-size: 13px;
+    }
+
+    #pera{
+        font-size: 13px;
+    }
+
+    .portion9 .left,
+    .portion9 p {
+        width: 90%;
+    }
+
+    .portion9 p {
+        margin-left: -30px;
+    }
+
+    .portion10 {
+        position: relative;
+        top: 25px;
+        left: -20px;
+        width: 110px;
+        height: 30px;
+        border: 1px solid rgb(26, 26, 26);
+        border-radius: 3px;
+        float: right;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        color: white;
+        font-size: 12px;
+        line-height: 30px;
+        padding-left: 0px;
+        cursor: pointer;
+    }
+
+    .portion10 {
+        color: white;
+        font-size: 16px;
+        line-height: 30px;
+        padding-left: 15px;
+        text-decoration: none;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+    }
+
+    .portion_10{
+        position: relative;
+        top: 85px;
+        /* left: 50px; */
+        margin-left: 50px;
+        
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+
+    .portion-10 {
+        width: 70%;
+        position: relative;
+        top: 100px;
+        left: 50px;
+        font-size: 13px;
+        /* white-space: nowrap; */
+    }
+
+    .portion11 {
+        width: 88%;
+        position: relative;
+        top: 120px;
+        left: 64px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 432px){
+    .portion9 {
+        width: 90%;
+        height: 230px;
+        margin-top: 10px;
+        margin-left: 50px;
+        font-size: 13px;
+    }
+
+    #pera{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .portion7 {
+        margin-top: 20px;
+        margin-left: 50px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+
+    .portion8 {
+        width: 75%;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 50px;
+        font-size: 12px;
+    }
+
+    .portion8 .left,
+    .portion8 p {
+        width: 75%;
+    }
+
+    .portion8 p, .portion9 p{
+        position: relative;
+        left: 27px;
+    }
+
+    .portion8 .left img,
+    .portion9 .left img {
+        width: 130px;
+    }
+
+    .portion9 .left img{
+        margin-top: 10px;
+    }
+
+    .portion8 p {
+        margin-left: -30px;
+    }
+
+    .portion9 {
+        width: 75%;
+        height: 450px;
+        margin-top: 10px;
+        margin-left: 50px;
+        font-size: 12px;
+    }
+
+    #pera{
+        width: 60%;
+        font-size: 12px;
+    }
+
+    .portion9 .left,
+    .portion9 p {
+        width: 75%;
+    }
+
+    .portion9 p {
+        margin-left: -30px;
+    }
+
+    .portion10 {
+        position: relative;
+        top: 25px;
+        left: -20px;
+        width: 110px;
+        height: 30px;
+        border: 1px solid rgb(26, 26, 26);
+        border-radius: 3px;
+        float: right;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        color: white;
+        font-size: 12px;
+        line-height: 30px;
+        padding-left: 0px;
+        cursor: pointer;
+    }
+
+    .portion10 {
+        color: white;
+        font-size: 16px;
+        line-height: 30px;
+        padding-left: 15px;
+        text-decoration: none;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+    }
+
+    .portion_10{
+        position: relative;
+        top: 85px;
+        /* left: 50px; */
+        margin-left: 50px;
+        
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        
+    }
+
+    .portion-10 {
+        width: 70%;
+        position: relative;
+        top: 100px;
+        left: 50px;
+        font-size: 12px;
+        /* white-space: nowrap; */
+    }
+
+    .portion11 {
+        width: 88%;
+        position: relative;
+        top: 120px;
+        left: 64px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .portion7 {
+        margin-top: 20px;
+        margin-left: 40px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+
+    .portion8 {
+        width: 75%;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 40px;
+        font-size: 12px;
+    }
+
+    .portion8 .left,
+    .portion8 p {
+        width: 75%;
+    }
+
+    .portion8 p, .portion9 p{
+        position: relative;
+        left: 27px;
+    }
+
+    .portion8 .left img,
+    .portion9 .left img {
+        margin-left: -10px;
+        width: 130px;
+    }
+
+    .portion9 .left img{
+        margin-top: 10px;
+    }
+
+    .portion8 p {
+        margin-left: -40px;
+    }
+
+    .portion9 {
+        width: 75%;
+        height: 450px;
+        margin-top: 10px;
+        margin-left: 40px;
+        font-size: 12px;
+    }
+
+    #pera{
+        margin-left: 30px;
+    }
+
+    .portion9 .left,
+    .portion9 p {
+        width: 75%;
+    }
+
+    .portion9 p {
+        margin-left: -40px;
+    }
+
+    .portion10 {
+        position: relative;
+        top: 25px;
+        left: -20px;
+        width: 110px;
+        height: 30px;
+        border: 1px solid rgb(26, 26, 26);
+        border-radius: 3px;
+        float: right;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        color: white;
+        font-size: 12px;
+        line-height: 30px;
+        padding-left: 0px;
+        cursor: pointer;
+    }
+
+    .portion10 {
+        color: white;
+        font-size: 16px;
+        line-height: 30px;
+        padding-left: 15px;
+        text-decoration: none;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+    }
+
+    .portion_10{
+        position: relative;
+        top: 85px;
+        /* left: 50px; */
+        margin-left: 30px;
+        
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        
+    }
+
+    .portion-10 {
+        width: 70%;
+        position: relative;
+        top: 100px;
+        left: 30px;
+        font-size: 12px;
+        /* white-space: nowrap; */
+    }
+
+    .portion11 {
+        width: 88%;
+        position: relative;
+        top: 120px;
+        left: 44px;
+        font-size: 12px;
+    }
+}
+
+/* charters media */
+
+@media screen and (max-width: 866px){
+    .portion12{
+        margin-top: 20px;
+        margin-left: 50px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+    
+    .portion13{
+        width: 80%;
+        height: 130px;
+        margin-top: 20px;
+        margin-left: 40px;
+        font-size: 14px;
+        
+    }
+    
+    .portion13 .left, .portion13 .child2{
+        width: 50%;
+        float: left;
+    }
+
+    .portion13 .left img{
+        width: 130px;
+    }
+    
+    .portion13 .list1{
+        margin-top: 25px;
+        margin-left: -60px;
+        font-size: 14px;
+    }
+    
+    .portion13 .child2 p{
+        margin-left: -74px;
+        font-size: 14px;
+    }
+    
+    .portion14{
+        width: 80%;
+        margin-top: 10px;
+        margin-left: 40px;
+        font-size: 14px;
+    }
+
+    #para{
+        width: 80%;
+        margin-left: 40px;
+        font-size: 14px;
+    }
+    
+    .portion15{
+        position: relative;
+        top: 25px;
+        left: -20px;
+        width: 95px;
+        height: 30px;
+        border: 1px solid rgb(26, 26, 26);
+        border-radius: 3px;
+        float: right;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        color: white;
+        font-size: 14px;
+        line-height: 27px;
+        padding-left: 12px;
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+    
+    .portion16{
+        margin-top: 90px;
+        margin-left: 50px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+    
+    .portion17{
+        width: 80%;
+        height: 100px;
+        margin-top: 25px;
+        margin-left: 40px;
+        font-size: 14px;
+    }
+    
+    .portion17 .left, .portion17 p{
+        width: 50%;
+        float: left;
+    }
+
+    .portion17 .left img{
+        width: 130px;
+    }
+    
+    .portion17 p{
+        margin-left: -74px;
+    }
+    
+    .portion18{
+        width: 80%;
+        margin-top: 5px;
+        margin-left: 40px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 758px){
+    .portion12{
+        margin-top: 20px;
+        margin-left: 50px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        margin-left: 30px;
+    }
+    
+    .portion13{
+        width: 90%;
+        height: 170px;
+        margin-top: 20px;
+        margin-left: 0px;
+        font-size: 14px;
+        
+    }
+    
+    .portion13 .left, .portion13 .child2{
+        width: 90%;
+        position: relative;
+        left: 110px;
+    }
+
+    .portion13 .left img{
+        margin-left: -80px;
+    }
+
+    .portion13 .left img{
+        width: 130px;
+    }
+    
+    .portion13 .list1{
+        margin-top: 10px;
+        margin-left: -70px;
+        font-size: 13px;
+    }
+    
+    .portion13 .child2 p{
+        margin-left: -84px;
+        font-size: 14px;
+    }
+    
+    .portion14{
+        width: 80%;
+        margin-top: 25px;
+        margin-left: 30px;
+        font-size: 14px;
+    }
+
+    #para{
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    
+    .portion15{
+        position: relative;
+        top: 25px;
+        left: -20px;
+        width: 95px;
+        height: 30px;
+        border: 1px solid rgb(26, 26, 26);
+        border-radius: 3px;
+        float: right;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        color: white;
+        font-size: 14px;
+        line-height: 27px;
+        padding-left: 12px;
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+    
+    .portion16{
+        margin-top: 90px;
+        margin-left: 50px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        margin-left: 30px;
+    }
+    
+    .portion17{
+        width: 90%;
+        height: 120px;
+        margin-top: 25px;
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    
+    .portion17 .left, .portion17 p{
+        width: 90%;
+    }
+
+    .portion17 .left img{
+        width: 130px;
+    }
+    
+    .portion17 p{
+        position: relative;
+        left: 80px;
+        margin-left: -84px;
+    }
+    
+    .portion18{
+        width: 80%;
+        margin-top: 5px;
+        margin-left: 25px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 673px){
+    .portion12{
+        margin-top: 20px;
+        margin-left: 50px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        margin-left: 30px;
+    }
+    
+    .portion13{
+        width: 80%;
+        height: 170px;
+        margin-top: 20px;
+        margin-left: 0px;
+        font-size: 14px;
+        
+    }
+    
+    .portion13 .left, .portion13 .child2{
+        width: 80%;
+        position: relative;
+        left: 110px;
+    }
+
+    .portion13 .left img{
+        margin-left: -80px;
+    }
+
+    .portion13 .left img{
+        width: 130px;
+    }
+    
+    .portion13 .list1{
+        margin-top: 10px;
+        margin-left: -70px;
+        font-size: 13px;
+    }
+    
+    .portion13 .child2 p{
+        margin-left: -84px;
+        font-size: 14px;
+    }
+    
+    .portion14{
+        width: 70%;
+        margin-top: 25px;
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    
+    .portion15{
+        position: relative;
+        top: 25px;
+        left: -20px;
+        width: 95px;
+        height: 30px;
+        border: 1px solid rgb(26, 26, 26);
+        border-radius: 3px;
+        float: right;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        color: white;
+        font-size: 14px;
+        line-height: 27px;
+        padding-left: 12px;
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+    
+    .portion16{
+        margin-top: 90px;
+        margin-left: 50px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        margin-left: 30px;
+    }
+    
+    .portion17{
+        width: 80%;
+        height: 130px;
+        margin-top: 25px;
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    
+    .portion17 .left, .portion17 p{
+        width: 80%;
+    }
+
+    .portion17 .left img{
+        width: 130px;
+    }
+    
+    .portion17 p{
+        position: relative;
+        left: 80px;
+        margin-left: -84px;
+    }
+    
+    .portion18{
+        width: 70%;
+        margin-top: 5px;
+        margin-left: 25px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 544px){
+    .portion12{
+        margin-top: 20px;
+        margin-left: 50px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        margin-left: 30px;
+        font-size: 16px;
+    }
+    
+    .portion13{
+        width: 80%;
+        height: 170px;
+        margin-top: 20px;
+        margin-left: 0px;
+        font-size: 14px;
+        
+    }
+    
+    .portion13 .left, .portion13 .child2{
+        width: 80%;
+        position: relative;
+        left: 110px;
+    }
+
+    .portion13 .left img{
+        margin-left: -80px;
+    }
+
+    .portion13 .left img{
+        width: 130px;
+    }
+    
+    .portion13 .list1{
+        margin-top: 10px;
+        margin-left: -70px;
+        font-size: 13px;
+    }
+    
+    .portion13 .child2 p{
+        margin-left: -84px;
+        font-size: 14px;
+    }
+    
+    .portion14{
+        width: 70%;
+        margin-top: 25px;
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    
+    .portion15{
+        position: relative;
+        top: 25px;
+        left: -20px;
+        width: 95px;
+        height: 30px;
+        border: 1px solid rgb(26, 26, 26);
+        border-radius: 3px;
+        float: right;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        color: white;
+        font-size: 14px;
+        line-height: 27px;
+        padding-left: 12px;
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+    
+    .portion16{
+        margin-top: 90px;
+        margin-left: 50px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        margin-left: 30px;
+        font-size: 16px;
+    }
+    
+    .portion17{
+        width: 80%;
+        height: 145px;
+        margin-top: 25px;
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    
+    .portion17 .left, .portion17 p{
+        width: 80%;
+    }
+
+    .portion17 .left img{
+        width: 130px;
+    }
+    
+    .portion17 p{
+        position: relative;
+        left: 80px;
+        margin-left: -84px;
+    }
+    
+    .portion18{
+        width: 70%;
+        margin-top: 5px;
+        margin-left: 25px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 476px){
+    .portion12{
+        width: 50%;
+        margin-top: 20px;
+        margin-left: 50px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        margin-left: 30px;
+        font-size: 16px;
+    }
+
+    .portion13{
+        width: 80%;
+        height: 190px;
+        margin-top: 20px;
+        margin-left: 0px;
+        font-size: 14px;
+        
+    }
+    
+    .portion13 .left, .portion13 .child2{
+        width: 80%;
+        position: relative;
+        left: 110px;
+    }
+
+    .portion13 .left img{
+        margin-left: -80px;
+    }
+
+    .portion13 .left img{
+        width: 130px;
+    }
+    
+    .portion13 .list1{
+        margin-top: 10px;
+        margin-left: -70px;
+        font-size: 11px;
+    }
+    
+    .portion13 .child2 p{
+        margin-left: -84px;
+        font-size: 14px;
+    }
+    
+    .portion14{
+        width: 80%;
+        margin-top: 25px;
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    
+    .portion15{
+        position: relative;
+        top: 25px;
+        left: -20px;
+        width: 95px;
+        height: 30px;
+        border: 1px solid rgb(26, 26, 26);
+        border-radius: 3px;
+        float: right;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        color: white;
+        font-size: 14px;
+        line-height: 27px;
+        padding-left: 12px;
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+    
+    .portion16{
+        margin-top: 90px;
+        margin-left: 50px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        margin-left: 30px;
+        font-size: 16px;
+    }
+    
+    .portion17{
+        width: 80%;
+        height: 160px;
+        margin-top: 25px;
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    
+    .portion17 .left, .portion17 p{
+        width: 80%;
+    }
+
+    .portion17 .left img{
+        width: 130px;
+    }
+    
+    .portion17 p{
+        position: relative;
+        left: 80px;
+        margin-left: -84px;
+    }
+    
+    .portion18{
+        width: 55%;
+        margin-top: 5px;
+        margin-left: 25px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 386px){
+    .portion12{
+        width: 50%;
+        margin-top: 20px;
+        margin-left: 50px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        margin-left: 30px;
+        font-size: 16px;
+    }
+
+    .portion13{
+        width: 75%;
+        height: 190px;
+        margin-top: 20px;
+        margin-left: 0px;
+        font-size: 12px;
+        
+    }
+    
+    .portion13 .left, .portion13 .child2{
+        width: 75%;
+        position: relative;
+        left: 110px;
+    }
+
+    .portion13 .left img{
+        margin-left: -80px;
+    }
+
+    .portion13 .left img{
+        width: 130px;
+    }
+    
+    .portion13 .list1{
+        margin-top: 10px;
+        margin-left: -70px;
+        font-size: 10px;
+    }
+    
+    .portion13 .child2 p{
+        margin-left: -84px;
+        font-size: 12px;
+    }
+    
+    .portion14{
+        width: 80%;
+        margin-top: 25px;
+        margin-left: 30px;
+        font-size: 12px;
+    }
+    
+    .portion15{
+        position: relative;
+        top: 25px;
+        left: -20px;
+        width: 95px;
+        height: 30px;
+        border: 1px solid rgb(26, 26, 26);
+        border-radius: 3px;
+        float: right;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        color: white;
+        font-size: 14px;
+        line-height: 27px;
+        padding-left: 12px;
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+    
+    .portion16{
+        margin-top: 90px;
+        margin-left: 50px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        margin-left: 30px;
+        font-size: 16px;
+    }
+    
+    .portion17{
+        width: 80%;
+        height: 160px;
+        margin-top: 25px;
+        margin-left: 30px;
+        font-size: 12px;
+    }
+    
+    .portion17 .left, .portion17 p{
+        width: 80%;
+    }
+
+    .portion17 .left img{
+        width: 130px;
+    }
+    
+    .portion17 p{
+        position: relative;
+        left: 80px;
+        margin-left: -84px;
+    }
+    
+    .portion18{
+        width: 60%;
+        margin-top: 5px;
+        margin-left: 25px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 769px){
+    header span #ul{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+    header span #ul{
+        font-size: 16px;
+        white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 500px){
+    header span #ul{
+        transform: translateX(-57%);
+        font-size: 14px;
+        white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 420px){
+    header span #ul{
+        transform: translateX(-62%);
+        font-size: 14px;
+        white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 865px){
+    .slide{
+        width: 100%;
+        height: 430px;
+        position: relative;
+        left: 50.6%;
+        transform: translateX(-50%);
+        
+    }
+    
+    
+    #slider{
+        width: 100%;
+        height: 430px;
+        z-index: -1;
+    }
+    
+    #slider img{
+        width: 100%;
+        height: 430px;
+    }
+}
+
+/* contact media */
+
+@media screen and (max-width: 865px) {
+    .contents {
+        width: 100%;
+        position: relative;
+        left: 50.6%;
+        transform: translateX(-50%);
+    }
+
+    .contents .leftside {
+        width: 35%;
+        height: auto;
+        float: left;
+        background: rgb(238, 236, 236);
+    }
+
+    .contents .rightside {
+        width: 65%;
+        height: auto;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .contactform .textarea .textareas{
+        width: 70%;
+    }
+
+    .contents .leftside{
+        font-size: 14px;
+    }
+
+    .contactform input{
+        width: 70%;
+    }
+
+    .contents .leftside {
+        width: 35%;
+        height: 402px;
+        float: left;
+        background: rgb(238, 236, 236);
+    }
+
+    .contents .rightside {
+        width: 65%;
+        height: 402px;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 666px){
+    .contactform .textarea .textareas{
+        width: 60%;
+    }
+
+    .contents .leftside{
+        font-size: 12px;
+    }
+
+    .contactform input{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 588px){
+    .contents .leftside{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 498px){
+    .contents .leftside{
+        font-size: 8px;
+    }
+
+    .contactform input{
+        width: 80%;
+        margin-left: 2px;
+    }
+
+    .contactform .textarea .textareas{
+        width: 80%;
+    }
+
+    .contactform .reset{
+        width: 60px;
+        height: 30px;
+        position: relative;
+        top: 3px;
+        left: -30px;
+        border: 1px solid rgb(26, 26, 26);
+        border-radius: 3px;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        color: white;
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 30px;
+        font-style: italic;
+    }
+    
+    .contactform .submit{
+        width: 70px;
+        height: 30px;
+        position: relative;
+        top: 3px;
+        left: -10px;
+        border: 1px solid rgb(26, 26, 26);
+        border-radius: 3px;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        color: white;
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 30px;
+        font-style: italic;
+    }
+    
+}
+
+@media screen and (max-width: 392px){
+    .contents .leftside{
+        font-size: 7px;
+    }
+}
+
+/* reservation meadia */
+
+@media screen and (max-width: 708px){
+    .input3 span{
+        margin-left: 15px;
+        font-size: 18px;
+        display: block;
+    }
+
+    .submit_form, .clear_form{
+        left: -50px;
+        margin-left: 10px;
+    }
+
+    .input2 input{
+        margin-top: 5px;
+        width: 200px;
+        display: block;
+    }
+
+    .input4 input, .input5 input{
+        width: 200px;
+    }
+    
+    ::placeholder{
+        font-size: 15px;
+    }
+
+    .input6 input, .input7 input{
+        width: 200px;
+        display: block;
+    }
+
+    .input8 .group{
+        margin-top: 5px;
+        display: block;
+    }
+
+    .clear_form, .submit_form{
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 508px){
+    .submit_form{
+        width: 120px;
+        height: 30px;
+        position: relative;
+        top: 3px;
+        left: -25px;
+        border: 1px solid rgb(26, 26, 26);
+        border-radius: 3px;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        color: white;
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 30px;
+        font-style: italic;
+        float: right;
+        font-size: 12px;
+        word-spacing: 2px;
+    }
+    
+    .clear_form{
+        width: 70px;
+        height: 30px;
+        position: relative;
+        top: 3px;
+        left: -25px;
+        border: 1px solid rgb(26, 26, 26);
+        border-radius: 3px;
+        background: linear-gradient(rgb(26, 26, 26), rgb(58, 58, 58));
+        color: white;
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 30px;
+        font-style: italic;
+        float: right;
+        font-size: 12px;
+    }
+    
+    
+}
+
+/* fleet media */
+
+@media screen and (max-width: 800px){
+    .ourfleet{
+        margin-top: 20px;
+        margin-left: 20px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+    
+    .fleet_img{
+        margin: 15px 25%;
+    }
+    
+    .fleetname1{
+        margin: 15px 25%;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        white-space: nowrap;
+    }
+    
+    .wrapper_1{
+        width: auto;
+        height: 100px;
+        margin-top: 20px;
+        margin-left: -35px;
+        font-size: 15px;
+    }
+    
+    
+    
+    .wrapper_1 div{
+        width: 25%;
+        float: left;
+        margin-left: 40px;
+        text-align: center;
+    }
+    .wrapper_1 div .span{
+        display: block;
+    }
+    
+    .fleetname2{
+        margin: 15px 25%;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        white-space: nowrap;
+    }
+    
+    .fleet_img2{
+        margin: 15px 25%;
+    }
+    
+    .wrapper_2{
+        width: auto;
+        height: 100px;
+        margin-top: 20px;
+        margin-left: -35px;
+        font-size: 15px;
+    }
+    
+    
+    
+    .wrapper_2 div{
+        width: 25%;
+        float: left;
+        margin-left: 40px;
+        text-align: center;
+    }
+    .wrapper_2 div span{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .ourfleet{
+        margin-top: 20px;
+        margin-left: 20px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+    
+    .fleet_img{
+        margin: 15px 15%;
+    }
+    
+    .fleetname1{
+        margin: 15px 17%;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        white-space: nowrap;
+    }
+    
+    .wrapper_1{
+        width: auto;
+        height: 100px;
+        margin-top: 20px;
+        margin-left: -10px;
+        font-size: 12px;
+    }
+    
+    
+    
+    .wrapper_1 div{
+        width: 25%;
+        float: left;
+        margin-left: 15px;
+        text-align: center;
+    }
+    .wrapper_1 div .span{
+        display: block;
+    }
+    
+    .fleetname2{
+        margin: 15px 17%;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        white-space: nowrap;
+    }
+    
+    .fleet_img2{
+        margin: 15px 20%;
+    }
+    
+    .wrapper_2{
+        width: auto;
+        height: 100px;
+        margin-top: 20px;
+        margin-left: -10px;
+        font-size: 12px;
+    }
+    
+    
+    
+    .wrapper_2 div{
+        width: 25%;
+        float: left;
+        margin-left: 15px;
+        text-align: center;
+    }
+    .wrapper_2 div span{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .ourfleet{
+        margin-top: 20px;
+        margin-left: 20px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+    
+    .fleet_img{
+        margin: 15px 10%;
+    }
+    
+    .fleetname1{
+        margin: 15px 8%;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        white-space: nowrap;
+    }
+    
+    .wrapper_1{
+        width: auto;
+        height: 100px;
+        margin-top: 20px;
+        margin-left: -10px;
+        font-size: 12px;
+    }
+    
+    
+    
+    .wrapper_1 div{
+        width: 25%;
+        float: left;
+        margin-left: 15px;
+        text-align: center;
+    }
+    .wrapper_1 div .span{
+        display: block;
+    }
+    
+    .fleetname2{
+        margin: 15px 8%;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        white-space: nowrap;
+    }
+    
+    .fleet_img2{
+        margin: 15px 10%;
+    }
+    
+    .wrapper_2{
+        width: auto;
+        height: 100px;
+        margin-top: 20px;
+        margin-left: -10px;
+        font-size: 12px;
+    }
+    
+    
+    
+    .wrapper_2 div{
+        width: 25%;
+        float: left;
+        margin-left: 15px;
+        text-align: center;
+    }
+    .wrapper_2 div span{
+        display: block;
+    }
+}
