@@ -1,0 +1,14 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    width: 50%;
+    margin-top: 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
