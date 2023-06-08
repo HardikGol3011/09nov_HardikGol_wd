@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airlines</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://malsup.github.io/jquery.cycle.all.js"></script>
+    <script src="jquery/jquery.js"></script>
+
+
+</head>
+
+<body>
+    <header>
+        <span><i class="fa-solid fa-bars" id="fa"></i>
+            <ul id="ul">
+                <a href="index.html">
+                    <li>HOME</li>
+                </a>
+                <a href="aircraft.html">
+                    <li>OUR AIRCRAFT</li>
+                </a>
+                <a href="safety.html">
+                    <li>SAFETY</li>
+                </a>
+                <a href="charters.html">
+                    <li>CHARTERS</li>
+                </a>
+                <a href="contact.html">
+                    <li>CONTACTS</li>
+                </a>
+            </ul>
+        </span>
+        <img src="logo/logo.png" alt="">
+        <div class="menu">
+            <ul class="menu1">
+                <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-shop"></i></a></li>
+            </ul>
+            <ul class="menu2">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="aircraft.html">OUR AIRCRAFT</a></li>
+                <li><a href="safety.html">SAFETY</a></li>
+                <li><a href="charters.html">CHARTERS</a></li>
+                <li><a href="contact.html">CONTACTS</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="slide">
+
+        <div id="slider">
+
+            <a href="#"><img src="images/airline1.jpg" alt=""></a>
+            <a href="#"><img src="images/airline2.jpg" alt=""></a>
+            <a href="#"><img src="images/airline3.jpg" alt=""></a>
+            <a href="#"><img src="images/airline4.jpg" alt=""></a>
+
+        </div>
+
+    </section>
+
+    <section class="wrapper">
+
+        <h1 class="headingss1">COMFORT</h1>
+        <h1 class="headingss2">Guaranteed</h1>
+
+        <p class="pera">Lorem, ipsum dolor sit amet consectetur adipisicing<br>
+            elit. Nam maiores voluptates cumque iste<br>
+            harum fugit quisquam voluptatum</p>
+
+    </section>
+
+
+    <section class="content">
+        <div class="leftside">
+            <h3 class="h3">Your Flight Planner</h3>
+            <form action="">
+                <div class="main">
+                    <span class="radio radio1"><input type="radio" value="Round Trip" name="airline"> Round Trip</span>
+                    <span class="radio radio2"><input type="radio" value="Empty-Leg" name="airline"> Empty-Leg</span>
+                </div>
+                <div class="main">
+                    <span class="radio radio3"><input type="radio" value="One Way" name="airline"> One Way</span>
+                    <span class="radio radio4"><input type="radio" value="Multi-leg" name="airline"> Multi-leg</span>
+                </div>
+                <div class="city">
+                    <label for="">Leving From:</label><br>
+                    <input type="text" placeholder="Enter City or Airport Code" size="25px">
+                </div>
+                <div class="city1">
+                    <label for="">Going To:</label><br>
+                    <input type="text" placeholder="Enter City or Airport Code" size="25px">
+                </div>
+                <div class="datetime">
+                    <label for="">Departure Date and Time:</label>
+                    <input type="date">
+                    <input type="time">
+                </div>
+                <div class="datetime1">
+                    <label for="">Return Date and Time:</label>
+                    <input type="date">
+                    <input type="time">
+                </div>
+                <span class="passengers">
+                    <label for="">Passengers:</label><br>
+                    <input type="text" placeholder="#passengers">
+                </span>
+                <span class="submit">
+                    <input type="submit" value="GO!">
+                </span>
+            </form>
+            <div class="news">
+                <h3>Recent News</h3>
+                <div>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <span>January 1, 2023</span>
+                </div>
+                <hr>
+                <div>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <span>February 5, 2023</span>
+                </div>
+                <hr>
+                <div>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <span>March 22, 2023</span>
+                </div>
+            </div>
+        </div>
+        <div class="rightside">
+            <h2 class="ourfleet">Our Fleet</h2>
+
+
+            <h3 class="fleetname1">ERJ 145 - Embraer</h3>
+            <img src="images/feet1.jpg" alt="" class="fleet_img">
+
+            <div class="wrapper_1">
+                <div class="info info2"><b>Passengers</b><span class="span">50</span></div>
+                <div class="info info3"><b>Range</b><span class="span">1,550 nm / 2,873 km</span></div>
+                <div class="info info4"><b>Cruise Speed</b><span class="span">600 Km/h</span></div>
+            </div>
+
+            <h3 class="fleetname2">H120 - Airbus Helicopters</h3>
+            <img src="images/fleet2.jpg" alt="" class="fleet_img2">
+
+            <div class="wrapper_2">
+                <div class="info info2"><b>Passengers</b><span>5</span></div>
+                <div class="info info3"><b>Range</b><span>383 nm – 710 km @ MTOW</span></div>
+                <div class="info info4"><b>Cruise Speed</b><span>120 km/h</span></div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <span>Copyright&copy;2023 Domain Name - All Right Reservrd</span>
+        <span>Free CSS Templates by TemplateMonster</span>
+    </footer>
+
+
+</body>
+
+</html>
