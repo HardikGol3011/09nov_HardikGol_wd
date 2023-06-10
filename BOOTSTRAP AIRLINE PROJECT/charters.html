@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airline</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="jquery-timepicker/jquery.timepicker.min.css">
+    <script src="jquery-timepicker/jquery.timepicker.min.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/media.css">
+    <script src="JQUERY/jquery.js"></script>
+</head>
+
+<body>
+    <div class="container-lg">
+        <header class="bg-dark">
+            <div class="row">
+                <div class="col-4 ps-5 pt-1">
+                    <a class="navbar-brand ps-3" href="#">
+                        <img src="logo/logo.png" alt="" width="150">
+                    </a>
+                </div>
+
+                <div class="col-8">
+                    <div class="row text-center">
+                        <div class="col-12">
+                            <nav class="navbar navbar-expand-lg navbar-light float-end mx-5">
+                                <div class="container-fluid">
+                                    <button class="navbar-toggler mt-3 bg-white" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                                        aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse">
+                                        <ul class="navbar-nav menu1">
+                                            <li class="nav-item">
+                                                <a href="#" class="text-white"><i class="fa-solid fa-house"></i></a>
+                                            </li>
+                                            <li class="nav-item ps-3">
+                                                <a href="#" class="text-white"><i class="fa-solid fa-envelope"></i></a>
+                                            </li>
+                                            <li class="nav-item ps-3">
+                                                <a href="#" class="text-white"><i class="fa-solid fa-shop"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+
+                        <div class="col-12">
+                            <nav class="navbar navbar-expand-lg navbar-light float-end mx-5">
+                                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                    <ul class="navbar-nav mx-1 menu2">
+                                        <li class="nav-item">
+                                            <a class="nav-link active text-white" aria-current="page"
+                                                href="index.html">HOME</a>
+                                        </li>
+                                        <li class="nav-item ps-3">
+                                            <a class="nav-link text-white" href="aircraft.html">OUR AIRCRAFT</a>
+                                        </li>
+                                        <li class="nav-item ps-3">
+                                            <a class="nav-link text-white" href="safety.html">SAFETY</a>
+                                        </li>
+                                        <li class="nav-item ps-3">
+                                            <a class="nav-link text-white" href="charters.html">CHARTERS</a>
+                                        </li>
+                                        <li class="nav-item ps-3">
+                                            <a class="nav-link text-white me-2" href="contact.html">CONTACTS</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="container-lg carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/airline1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/airline2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/airline3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/airline4.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </div>
+
+    <div class="container-lg content">
+        <div class="row">
+            <div class="col-lg-3 h-auto py-2 col-sm-12 gray">
+                <div class="row">
+                    <div class="col-12 text-center mt-3">
+                        <h3 class="h3">Your Flight Planner</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 ms-4 px-0 ms-lg-2 ms-sm-4">
+                        <form action="" class="form">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                                <label class="form-check-label" for="inlineRadio1">Round Trip</label>
+                            </div>
+                            <div class="form-check form-check-inline radio2">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                    value="option2">
+                                <label class="form-check-label" for="inlineRadio2">Empty-Leg</label>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio3" value="option3">
+                                        <label class="form-check-label" for="inlineRadio3">One Way</label>
+                                    </div>
+                                    <div class="form-check form-check-inline ms-2">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio4" value="option4">
+                                        <label class="form-check-label" for="inlineRadio4">Multi-leg</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group mt-3 col-11">
+                                <label for="city">Leving From:</label>
+                                <input type="text" class="form-control" name="city" id="city"
+                                    placeholder="Enter Your City or Airport Code">
+                            </div>
+                            <div class="form-group mt-3 col-11">
+                                <label for="city">Going To:</label>
+                                <input type="text" class="form-control" name="city" id="city"
+                                    placeholder="Enter Your City or Airport Code">
+                            </div>
+                            <div class="row form-group mt-2">
+                                <label for="date" class="col-12 col-form-label">Departure Date And Time :</label>
+                                <div class="col-11">
+                                    <div class="input-group date" id="datepicker">
+                                        <input type="text" class="form-control">
+                                        <span class="input-group-append">
+                                            <span class="input-group-text bg-white d-block">
+                                                <i class="fa fa-calendar"></i>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row form-group mt-2">
+
+                                <div class="col-11">
+                                    <div class="input-group date" id="time">
+                                        <input type="text" class="form-control timePicker" id="time">
+                                        <span class="input-group-append">
+                                            <span class="input-group-text bg-white d-block">
+                                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group mt-3 col-6">
+                                    <label for="passengers">passengers:</label>
+                                    <input type="text" class="form-control" name="passengers" id="passengers"
+                                        placeholder="#passengers">
+                                </div>
+                                <div class="form-group mt-5 px-4 col-6">
+                                    <input class="bg-info w-75" type="submit" value="GO!">
+                                </div>
+                            </div>
+
+
+
+                        </form>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 text-center mt-4">
+                        <h3 class="h3">Recent News</h3>
+                    </div>
+                    <div class="col-12 mt-3 py-0 ms-4">
+                        <p class="my-0 text-info fw-bold">Lorem ipsum dolor sit.</p>
+                        <p class="my-0">January 1, 2023</p>
+                    </div>
+                    <div class="col-12 px-3">
+                        <hr>
+                    </div>
+                    <div class="col-12 mt-2 py-0 ms-4">
+                        <p class="my-0 text-info fw-bold">Lorem ipsum dolor sit.</p>
+                        <p class="my-0">February 5, 2023</p>
+                    </div>
+                    <div class="col-12 px-3">
+                        <hr>
+                    </div>
+                    <div class="col-12 mt-2 py-0 ms-4">
+                        <p class="my-0 text-info fw-bold">Lorem ipsum dolor sit.</p>
+                        <p class="my-0">March 22, 2023</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9 h-auto py-2 col-sm-12 bg-white rightside">
+                <div class="row">
+                    <div class="col-12 ps-5 mt-3">
+                        <h3 class="h3">A Premier Air Charter Services Broker</h3>
+                    </div>
+                    <div class="col-12 col-md-4 col-sm-12 ps-5 mt-3">
+                        <img src="images/charters.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-md-8 col-sm-12 ps-4 mt-2">
+                        <div class="row">
+                            <div class="col-12 px-4">
+                                <p>Et harum quidem facilis est et expedita distinctio nam libero tempore, cum</p>
+                            </div>
+                            <div class="col-12">
+                                <ul>
+                                    <li><a href="#">Est eligendi optio cumque nihil impedit quo</a></li>
+                                    <li><a href="#">Minus id quod maxime placeat facere possimus</a></li>
+                                    <li><a href="#">Omnis voluptas assumenda est</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 ps-5 mt-3">
+                        <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut
+                            et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a
+                            sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis
+                            doloribus asperiores repellat. Sed ut perspiciatis unde omnis iste natus error sit
+                            voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+                            inventore veritatis.</p>
+                    </div>
+                    <div class="col-12 mt-3 ps-5">
+                        <div class="collapse" id="collapseExample">
+                            <p id="pera">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quos soluta
+                                provident unde cumque officia quae consequuntur accusantium quasi vero adipisci, cum
+                                facere distinctio quod deserunt odit aut minus incidunt.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-dark float-end mx-3" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"
+                            id="read">
+                            READ MORE
+                        </button>
+                    </div>
+                    <div class="col-12 ps-5 mt-5">
+                        <h3 class="h3">Aircraft for Charter</h3>
+                    </div>
+                    <div class="col-12 col-md-4 ps-5 mt-3">
+                        <img src="images/charters1.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-md-8 mt-3 ps-5 px-md-4 ps-sm-5">
+                        <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta
+                            nobis est eligendi optio cumque nihil impedit</p>
+                    </div>
+                    <div class="col-12 mt-3 ps-5">
+                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                            voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
+                            cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id
+                            est laborum et dolorum fugat harum quidem rerum</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-lg h-100 mb-2 text-white">
+        <footer class="bg-dark">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12  py-lg-4 py-sm-1 text-center">
+                    <p class="pt-lg-3 pt-sm-2">Copyright©2023 Domain Name - All Right Reservrd</p>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 py-lg-4 py-sm-1 text-center">
+                    <p class="pt-lg-3">Free CSS Templates by TemplateMonster</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>

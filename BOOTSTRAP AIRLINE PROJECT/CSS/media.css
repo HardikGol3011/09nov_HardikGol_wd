@@ -1,0 +1,12 @@
+
+
+@media screen and (max-width: 1200px){
+    .carousel{
+        padding: 0 6px;
+    }
+    
+    .content{
+        padding: 0 24px;
+        
+    }
+}
